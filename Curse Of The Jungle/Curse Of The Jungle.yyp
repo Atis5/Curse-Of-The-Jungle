@@ -31,18 +31,18 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"_mees","path":"objects/_mees/_mees.yy",},},
     {"id":{"name":"Alex","path":"objects/Alex/Alex.yy",},},
     {"id":{"name":"Chrisssss","path":"objects/Chrisssss/Chrisssss.yy",},},
+    {"id":{"name":"Ayman","path":"objects/Ayman/Ayman.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

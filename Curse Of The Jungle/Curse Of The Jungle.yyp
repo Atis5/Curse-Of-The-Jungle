@@ -36,7 +36,7 @@
   "resources": [
     {"id":{"name":"_mees","path":"objects/_mees/_mees.yy",},},
     {"id":{"name":"Alex","path":"objects/Alex/Alex.yy",},},
-    {"id":{"name":"Chrisssss","path":"objects/Chrisssss/Chrisssss.yy",},},
+    {"id":{"name":"Chriss","path":"objects/Chriss/Chriss.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

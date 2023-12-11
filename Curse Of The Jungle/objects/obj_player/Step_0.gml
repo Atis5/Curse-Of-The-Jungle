@@ -8,11 +8,11 @@ var right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 var jump = keyboard_check(vk_up) || keyboard_check(vk_space) || keyboard_check(ord("W"));
 
 
-// Calculate horizontal movement
+// Calculate horizontal movement.
 horizontal_movement = (right - left) * player_speed;
 
 
-// Check collisions
+// Check collisions.
 if (place_meeting (x + horizontal_movement, y, obj_solid))
 {
 	while (!place_meeting(x + sign(horizontal_movement), y, obj_solid))
@@ -33,18 +33,17 @@ if (place_meeting (x, y + vertical_movement, obj_solid))
 	vertical_movement = 0;
 }
 
-// Check if player is in the air.
+// Check if player is in the air, allow jump when touching ground.
 if (not place_meeting(x,y + 1, obj_solid))
 {
 	vertical_movement += player_gravity;
 }
-
-// Allow player to jump when touching ground.
 else if (jump)
 {
 	vertical_movement = player_jump_force;
 }
 
+/// Movement.
 x += horizontal_movement;
 y += vertical_movement;
 

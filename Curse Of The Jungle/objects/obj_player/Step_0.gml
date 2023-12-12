@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 
 // Detect input
 var left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -33,21 +30,22 @@ if (place_meeting (x, y + vertical_movement, obj_solid))
 	vertical_movement = 0;
 }
 
-// Check if player is in the air, allow jump when touching ground.
+// Check if player is in the air.
 if (not place_meeting(x,y + 1, obj_solid))
 {
 	vertical_movement += player_gravity;
 }
+// Jump higher when touching leaf.
+else if (jump && (place_meeting(x,y, obj_bounce)))
+{
+	vertical_movement = player_jump_force*2;
+}
+// Allow jump when touching ground.
 else if (jump)
 {
 	vertical_movement = player_jump_force;
 }
 
-/// Movement.
+// Apply movement.
 x += horizontal_movement;
 y += vertical_movement;
-
-
-
-
-

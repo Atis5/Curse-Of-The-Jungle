@@ -17,12 +17,15 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_bounce","order":3,"path":"sprites/spr_bounce/spr_bounce.yy",},
     {"name":"obj_player","order":5,"path":"objects/obj_player/obj_player.yy",},
     {"name":"Alex","order":1,"path":"objects/Alex/Alex.yy",},
+    {"name":"obj_bounce","order":7,"path":"objects/obj_bounce/obj_bounce.yy",},
     {"name":"spr_collision","order":2,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"Ayman","order":3,"path":"objects/Ayman/Ayman.yy",},
     {"name":"Aymonsnut","order":4,"path":"objects/Aymonsnut/Aymonsnut.yy",},
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
+    {"name":"bounce_testing","order":1,"path":"rooms/bounce_testing/bounce_testing.yy",},
     {"name":"obj_solid","order":6,"path":"objects/obj_solid/obj_solid.yy",},
   ],
 }

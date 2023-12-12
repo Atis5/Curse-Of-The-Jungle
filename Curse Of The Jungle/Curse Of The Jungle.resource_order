@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_player","order":5,"path":"objects/obj_player/obj_player.yy",},
     {"name":"Alex","order":1,"path":"objects/Alex/Alex.yy",},
+    {"name":"spr_collision","order":2,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"Ayman","order":3,"path":"objects/Ayman/Ayman.yy",},
     {"name":"Aymonsnut","order":4,"path":"objects/Aymonsnut/Aymonsnut.yy",},
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},

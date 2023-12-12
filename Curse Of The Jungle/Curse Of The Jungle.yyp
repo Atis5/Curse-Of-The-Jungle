@@ -38,6 +38,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_player_placeholder","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},},
     {"id":{"name":"Alex","path":"objects/Alex/Alex.yy",},},
+    {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
     {"id":{"name":"Ayman","path":"objects/Ayman/Ayman.yy",},},
     {"id":{"name":"Aymonsnut","path":"objects/Aymonsnut/Aymonsnut.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},

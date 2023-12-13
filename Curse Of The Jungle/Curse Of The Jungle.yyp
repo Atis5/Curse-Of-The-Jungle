@@ -66,8 +66,8 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},
+    {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "templateType": null,

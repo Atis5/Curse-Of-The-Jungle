@@ -59,7 +59,7 @@ if (place_meeting(x,y, obj_bounce))
 x += horizontal_movement;
 y += vertical_movement;
 
-//Hitboxes
+//collisions
 if (collision(x + moveX, y)) {
 	while (!collision(x + sign(moveX), y)) {
 		x += sign(moveX);
@@ -100,9 +100,10 @@ else {
 }
 //direction
 
-//if (_signMouse != 0) {
-	//image_xscale = _signMouse;
-//}
+var _signMouse = sign(mouse_x - x);
+if (_signMouse != 0) {
+	image_xscale = _signMouse;
+}
 
 //Animation Speed (checking if the plaer faces 1 direction and moving the other)
 

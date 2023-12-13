@@ -20,6 +20,7 @@ if (place_meeting (x + horizontal_movement, y, obj_solid))
 	horizontal_movement = 0;
 }
 
+// Apply gravity.
 if (place_meeting (x, y + vertical_movement, obj_solid))
 {
 	while (!place_meeting(x , y + sign(vertical_movement), obj_solid))
@@ -35,11 +36,13 @@ if (not place_meeting(x,y + 1, obj_solid))
 {
 	vertical_movement += player_gravity;
 }
+
 // Jump higher when touching leaf.
 else if (jump && (place_meeting(x,y, obj_bounce)))
 {
 	vertical_movement = player_jump_force*2;
 }
+
 // Allow jump when touching ground.
 else if (jump)
 {

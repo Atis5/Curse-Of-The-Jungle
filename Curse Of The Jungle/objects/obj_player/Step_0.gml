@@ -3,6 +3,7 @@
 var left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 var right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 var jump = keyboard_check(vk_up) || keyboard_check(vk_space) || keyboard_check(ord("W"));
+var fly = keyboard_check(ord("F"));
 
 
 // Calculate horizontal movement.
@@ -43,6 +44,13 @@ else if (jump)
 	vertical_movement = player_jump_force;
 }
 
+// Flying. Works the same as jump, but doesn't check if you touch the ground.
+if (fly)
+{
+	vertical_movement = player_jump_force;
+}
+
+// Bounce
 if (place_meeting(x,y, obj_bounce))
 {
 	vertical_movement = player_bounce_force;

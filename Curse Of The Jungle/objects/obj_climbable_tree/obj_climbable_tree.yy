@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_solid",
+  "name": "obj_climbable_tree",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -24,11 +24,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_solid",
-    "path": "sprites/spr_solid/spr_solid.yy",
+    "name": "spr_climbable_tree",
+    "path": "sprites/spr_climbable_tree/spr_climbable_tree.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

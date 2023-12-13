@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCollision_Objects",
-  "eventList": [],
+  "name": "oBreakableParent",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Ayman",
     "path": "folders/Objects/Ayman.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oCollision",
+    "path": "objects/oCollision/oCollision.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

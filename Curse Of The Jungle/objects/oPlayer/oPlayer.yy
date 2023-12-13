@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Ayman",
+    "path": "folders/Objects/Ayman.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,12 +30,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayer_Idle",
-    "path": "sprites/sPlayer_Idle/sPlayer_Idle.yy",
+    "name": "spr_Professor_Idle",
+    "path": "sprites/spr_Professor_Idle/spr_Professor_Idle.yy",
   },
   "spriteMaskId": {
-    "name": "sPlayer_Idle",
-    "path": "sprites/sPlayer_Idle/sPlayer_Idle.yy",
+    "name": "spr_Professor_Idle",
+    "path": "sprites/spr_Professor_Idle/spr_Professor_Idle.yy",
   },
   "visible": true,
 }

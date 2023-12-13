@@ -37,16 +37,15 @@ if (not place_meeting(x,y + 1, obj_solid))
 	vertical_movement += player_gravity;
 }
 
-// Jump higher when touching leaf.
-else if (jump && (place_meeting(x,y, obj_bounce)))
-{
-	vertical_movement = player_jump_force*2;
-}
-
 // Allow jump when touching ground.
 else if (jump)
 {
 	vertical_movement = player_jump_force;
+}
+
+if (place_meeting(x,y, obj_bounce))
+{
+	vertical_movement = player_bounce_force;
 }
 
 // Apply movement.

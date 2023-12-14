@@ -7,7 +7,7 @@ var _left = keyboard_check(vk_left)or keyboard_check(ord("A"));
 var _down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 var _up = keyboard_check(vk_up)or keyboard_check(ord("W"));
 var jump = keyboard_check(vk_space) 
-
+var switching = keyboard_check_pressed(vk_enter)
 
 
 
@@ -121,7 +121,10 @@ if (_signMouse !=0){
 
 }
 
-
+if switching {
+	instance_change(obj_player,true )
+	instance_deactivate_object(oSpitzhacke)
+}
 
 
 

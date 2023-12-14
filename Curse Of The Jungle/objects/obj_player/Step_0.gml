@@ -3,7 +3,7 @@
 var left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 var right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 var jump = keyboard_check(vk_up) || keyboard_check(vk_space) || keyboard_check(ord("W"));
-
+var switching = keyboard_check_pressed(vk_enter)
 
 // Calculate horizontal movement.
 horizontal_movement = (right - left) * player_speed;
@@ -51,3 +51,11 @@ if (place_meeting(x,y, obj_bounce))
 // Apply movement.
 x += horizontal_movement;
 y += vertical_movement;
+
+//switching from this placeholer to human back
+
+if switching {
+	instance_change(oPlayer,true )
+	
+	
+}

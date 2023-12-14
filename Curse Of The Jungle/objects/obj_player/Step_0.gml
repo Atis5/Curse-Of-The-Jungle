@@ -56,6 +56,4 @@ y += vertical_movement;
 
 if switching {
 	instance_change(oPlayer,true )
-	
-	
 }

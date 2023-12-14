@@ -120,6 +120,7 @@ if (_signMouse !=0){
 	image_xscale = _signMouse;
 
 }
+//Switching from Human to Monkey form
 
 if switching {
 	instance_change(obj_player,true )

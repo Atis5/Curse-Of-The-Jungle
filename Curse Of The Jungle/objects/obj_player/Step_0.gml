@@ -20,7 +20,7 @@ if (place_meeting(x,y+1,obj_solid)) && (key_jump) or (is_on_vine = true) && (key
 }
 
 //Movement on the vine
-if (place_meeting(x,y,obj_vine_swing)) && (key_interact)
+if (place_meeting(x,y,obj_vine_swing)) 
 {
     is_on_vine = true;
 }
@@ -29,7 +29,7 @@ else
     is_on_vine = false;
 }
 
-if (is_on_vine = true)
+if (is_on_vine = true) && (key_interact)
 {
     vertical_movement = 0;
 }
@@ -46,7 +46,7 @@ if (is_on_vine = true) && (key_down)
 }
 
 //Movement on the tree
-if (place_meeting(x,y,obj_climbable_tree)) && (key_interact)
+if (place_meeting(x,y,obj_climbable_tree)) 
 {
     is_on_tree = true;
 }
@@ -55,7 +55,7 @@ else
     is_on_tree = false;
 }
 
-if (is_on_tree = true)
+if (is_on_tree = true) && (key_interact)
 {
     vertical_movement = 0;
 }

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-hp = 4;
+hp = 3;
 
 hpMax = hp;
 

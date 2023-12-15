@@ -14,7 +14,7 @@ vertical_movement = vertical_movement + player_gravity;
 
 
 //Jump
-if (place_meeting(x,y+1,obj_solid)) && (key_jump) or (is_on_vine = true) && (key_jump)
+if (place_meeting(x,y+1,obj_solid)) && (key_jump) or (is_on_vine = true) && (key_jump) or (is_on_tree = true) && (key_jump)
 {
     vertical_movement = player_jump_force;
 }

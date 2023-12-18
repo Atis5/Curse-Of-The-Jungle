@@ -4,7 +4,7 @@ key_right = keyboard_check(vk_right)or keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space)
 key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
-key_interact = keyboard_check(ord("E"));
+key_interact = keyboard_check_pressed(ord("E"));
 
 //Calculate movement
 var move = key_right - key_left;
@@ -19,22 +19,32 @@ if (place_meeting(x,y+1,obj_solid)) && (key_jump) or (is_on_vine = true) && (key
     vertical_movement = player_jump_force;
 }
 
-//Movement on the vine
-if (place_meeting(x,y,obj_vine_swing)) 
+//Collision on the vine
+if (place_meeting(x,y, obj_vine_swing)) 
 {
-    is_on_vine = true;
+		
+	is_on_vine = true;
 }
 else
 {
     is_on_vine = false;
+	stick_to_vine = false;
 }
 
-if (is_on_vine = true) && (key_interact)
+if (key_interact) {
+	stick_to_vine = !stick_to_vine;	
+}
+
+if (is_on_vine = true) && (stick_to_vine)
 {
     vertical_movement = 0;
+	var _col = instance_place(x, y, obj_vine_swing);
+	//show_debug_message(_col);
+	x = lerp(x, _col.x, .1);
+	//show_debug_message(x);
 }
 
-
+// Movement on vine
 if (is_on_vine = true) && (key_up)
 {
     vertical_movement = -climb_speed

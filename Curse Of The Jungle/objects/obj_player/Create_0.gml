@@ -10,6 +10,7 @@ climb_speed = 2.5;
 horizontal_movement = 0;
 vertical_movement = 0;
 
+stick_to_vine = false;
 
 
 

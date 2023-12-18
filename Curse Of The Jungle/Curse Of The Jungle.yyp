@@ -57,6 +57,7 @@
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"sSpitzhacke","path":"sprites/sSpitzhacke/sSpitzhacke.yy",},},
+    {"id":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
     {"id":{"name":"oObject","path":"objects/oObject/oObject.yy",},},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
     {"id":{"name":"oSpitzhacke","path":"objects/oSpitzhacke/oSpitzhacke.yy",},},
@@ -68,6 +69,7 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
     {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},
     {"roomId":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},

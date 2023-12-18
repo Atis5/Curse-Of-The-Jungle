@@ -13,7 +13,6 @@
     {"name":"inst_1C63CC77","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_79551C45","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_70ABB445","path":"rooms/greybox_chris/greybox_chris.yy",},
-    {"name":"inst_434B64EC","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_1871BFA1","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_239F74DD","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_49D01904","path":"rooms/greybox_chris/greybox_chris.yy",},

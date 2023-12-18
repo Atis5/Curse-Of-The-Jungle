@@ -19,6 +19,7 @@
     {"name":"spr_Professor_Idle","order":4,"path":"sprites/spr_Professor_Idle/spr_Professor_Idle.yy",},
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"sSpitzhacke","order":1,"path":"sprites/sSpitzhacke/sSpitzhacke.yy",},
+    {"name":"Greybox_ayman","order":3,"path":"rooms/Greybox_ayman/Greybox_ayman.yy",},
     {"name":"oObject","order":1,"path":"objects/oObject/oObject.yy",},
     {"name":"oController","order":3,"path":"objects/oController/oController.yy",},
     {"name":"oSpitzhacke","order":4,"path":"objects/oSpitzhacke/oSpitzhacke.yy",},

@@ -13,7 +13,6 @@
     {"name":"inst_1C63CC77","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_79551C45","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_70ABB445","path":"rooms/greybox_chris/greybox_chris.yy",},
-    {"name":"inst_434B64EC","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_1871BFA1","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_239F74DD","path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"inst_49D01904","path":"rooms/greybox_chris/greybox_chris.yy",},
@@ -495,7 +494,6 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_434B64EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":1600.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_523445C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vine_swing","path":"objects/obj_vine_swing/obj_vine_swing.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":1312.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77056EE0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vine_swing","path":"objects/obj_vine_swing/obj_vine_swing.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":1344.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F50E013","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vine_swing","path":"objects/obj_vine_swing/obj_vine_swing.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":1376.0,},

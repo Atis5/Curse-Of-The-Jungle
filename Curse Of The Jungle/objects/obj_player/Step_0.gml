@@ -67,11 +67,6 @@ else
     is_on_tree = false;
 }
 
-if (is_on_tree = true) && (key_interact)
-{
-    vertical_movement = 0;
-}
-
 if (is_on_tree = true) && (key_up)
 {
     vertical_movement = -climb_speed

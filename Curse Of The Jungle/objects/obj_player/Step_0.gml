@@ -14,15 +14,15 @@ vertical_movement = vertical_movement + player_gravity;
 
 
 //Jump
-if (place_meeting(x,y+1,obj_solid)) && (key_jump) or (is_on_vine = true) && (key_jump) or (is_on_tree = true) && (key_jump)
+if (place_meeting(x,y+1,obj_solid)) && (key_jump) || (is_on_vine = true) && (key_jump) || (is_on_tree = true) && (key_jump)
 {
     vertical_movement = player_jump_force;
+	stick_to_vine = false;
 }
 
 //Collision on the vine
 if (place_meeting(x,y, obj_vine_swing)) 
 {
-		
 	is_on_vine = true;
 }
 else
@@ -31,9 +31,11 @@ else
 	stick_to_vine = false;
 }
 
-if (key_interact) {
+if (key_interact) 
+{
 	stick_to_vine = !stick_to_vine;	
 }
+
 
 if (is_on_vine = true) && (stick_to_vine)
 {
@@ -42,18 +44,18 @@ if (is_on_vine = true) && (stick_to_vine)
 	//show_debug_message(_col);
 	x = lerp(x, _col.x, .1);
 	//show_debug_message(x);
+	
+	// Movement on vine
+	if (is_on_vine = true) && (key_up)
+	{
+	    vertical_movement = -climb_speed
+	}
+	if (is_on_vine = true) && (key_down)
+	{
+	    vertical_movement = climb_speed
+	}
 }
 
-// Movement on vine
-if (is_on_vine = true) && (key_up)
-{
-    vertical_movement = -climb_speed
-}
-
-if (is_on_vine = true) && (key_down)
-{
-    vertical_movement = climb_speed
-}
 
 //Movement on the tree
 if (place_meeting(x,y,obj_climbable_tree)) 

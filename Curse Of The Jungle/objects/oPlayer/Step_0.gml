@@ -125,7 +125,7 @@ if (_signMouse !=0){
 
 //Switching from Human to Monkey form
 
-if switching {
+if switching && (place_meeting(x,y+1,obj_solid)) {
 	instance_change(obj_player,true )
 	instance_deactivate_object(oSpitzhacke)
 	view_visible[1] = 0;

@@ -110,7 +110,7 @@ if (place_meeting(x,y,obj_bounce))
 	
 //Switching from Human to Monkey form
 
-if switching {
+if  switching && (place_meeting(x,y+1,obj_solid)) {
 	instance_change(oPlayer,true)
 	instance_deactivate_object(oSpitzhacke)
 	view_visible[1] = 1;

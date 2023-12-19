@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_test_jumpbreak",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Breakable World Objects",
+    "path": "folders/Objects/Breakable World Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_monkey_idle_test_placeholder",
-    "path": "sprites/spr_monkey_idle_test_placeholder/spr_monkey_idle_test_placeholder.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

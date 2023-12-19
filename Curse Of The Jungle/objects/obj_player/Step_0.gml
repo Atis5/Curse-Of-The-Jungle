@@ -5,7 +5,7 @@ key_jump = keyboard_check_pressed(vk_space)
 key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 key_interact = keyboard_check_pressed(ord("E"));
-
+var switching = keyboard_check_pressed(vk_enter)
 //Calculate movement
 var move = key_right - key_left;
 
@@ -103,4 +103,77 @@ y = y + vertical_movement;
 if (place_meeting(x,y,obj_bounce))
 {
 	vertical_movement = player_bounce_force;
+}
+
+//create grenade  
+if (mouse_check_button_released(mb_left)) { 
+	
+	var _throw = instance_create_layer(obj_player.x , obj_player.y - 40, "Instances",obj_grenade);
+	_throw.whatToDo = "fly"	
+	   if (image_xscale ==  1) {   _throw.flyDirect = "right" 
+		   }
+	   if (image_xscale == -1) {   _throw.flyDirect = "left" 
+		   }	
+	}
+
+
+
+
+	// see projection by holing right mouse button
+if (mouse_check_button_released(mb_right)) { 
+
+		var showProjection = instance_create_layer(obj_player.x  , obj_player.y - 40, "Instances",obj_grenade  );
+	   	showProjection.whatToDo = "show";
+	   if (image_xscale ==  1) {   showProjection.flyDirection = "right"        }
+	   if (image_xscale == -1) {   showProjection.flyDirection = "left"         }	
+		
+	} 	
+	
+//Switching from Human to Monkey form
+
+if switching {
+	instance_change(oPlayer,true)
+	instance_deactivate_object(oSpitzhacke)
+}
+
+if (moveX != 0) image_xscale = sign(moveX);
+
+//move instance
+x += moveX;
+y += moveY;
+
+// animation move
+if (moveX != 0 or moveY != 0) {
+	sprite_index = spr_monkey_idle_test_placeholder;
+}
+//flip sprite (for not mouse using games thats why I stated this as a comment now!) following will be the sprite for facing the ouse direction
+//if (moveX != 0) image_xscale = sign(moveX);
+//}
+
+
+//Animatiaon: IDle
+else {
+	sprite_index = spr_monkey_idle_test_placeholder;
+}
+//direction
+
+var _signMouse = sign(mouse_x - x);
+if (_signMouse != 0) {
+	image_xscale = _signMouse;
+}
+
+//Animation Speed (checking if the plaer faces 1 direction and moving the other)
+
+if moveX != 0 && sign(moveX) != _signMouse {
+	image_speed = -1;
+}
+else {
+	image_speed = 1;
+}
+
+var _signMouse = sign(mouse_x - x);
+
+if (_signMouse !=0){
+	image_xscale = _signMouse;
+
 }

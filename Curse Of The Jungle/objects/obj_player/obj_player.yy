@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_placeholder",
-    "path": "sprites/spr_player_placeholder/spr_player_placeholder.yy",
+    "name": "spr_monkey_idle_test_placeholder",
+    "path": "sprites/spr_monkey_idle_test_placeholder/spr_monkey_idle_test_placeholder.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -4,9 +4,9 @@
 //create cemra
 
 enum RES {
-	WIDTH = 360,
-	HEIGHT = 180,
-	SCALE = 4
+	WIDTH = 1920,
+	HEIGHT = 1080,
+	SCALE = 4,
 }
 
 var _camera = camera_create_view(0, 0, RES.WIDTH, RES.HEIGHT, 0, oPlayer, -1, -1, RES.WIDTH / 2, RES.HEIGHT / 2);

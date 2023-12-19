@@ -112,6 +112,8 @@ if (place_meeting(x,y,obj_bounce))
 if switching {
 	instance_change(oPlayer,true)
 	instance_deactivate_object(oSpitzhacke)
+	view_visible[1] = 1;
+	view_visible[2] = 0;
 }
 
 if (moveX != 0) image_xscale = sign(moveX);

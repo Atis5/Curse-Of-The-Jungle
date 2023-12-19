@@ -128,6 +128,8 @@ if (_signMouse !=0){
 if switching {
 	instance_change(obj_player,true )
 	instance_deactivate_object(oSpitzhacke)
+	view_visible[1] = 0;
+	view_visible[2] = 1;
 }
 
 if (mouse_check_button_released(mb_left)) { 

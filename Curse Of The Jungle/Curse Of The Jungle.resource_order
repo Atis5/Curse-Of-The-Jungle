@@ -14,6 +14,7 @@
     {"name":"obj_txt_leaf","order":5,"path":"objects/obj_txt_leaf/obj_txt_leaf.yy",},
     {"name":"greybox_chris","order":2,"path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"obj_txt_jump","order":1,"path":"objects/obj_txt_jump/obj_txt_jump.yy",},
+    {"name":"obj_txt_break_obstacle","order":6,"path":"objects/obj_txt_break_obstacle/obj_txt_break_obstacle.yy",},
     {"name":"obj_climbable_tree","order":7,"path":"objects/obj_climbable_tree/obj_climbable_tree.yy",},
     {"name":"obj_txt_vine_1","order":3,"path":"objects/obj_txt_vine_1/obj_txt_vine_1.yy",},
     {"name":"obj_txt_climb","order":2,"path":"objects/obj_txt_climb/obj_txt_climb.yy",},

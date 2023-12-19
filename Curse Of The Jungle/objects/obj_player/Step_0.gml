@@ -5,7 +5,8 @@ key_jump = keyboard_check_pressed(vk_space)
 key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 key_interact = keyboard_check_pressed(ord("E"));
-var switching = keyboard_check_pressed(vk_enter)
+var switching = keyboard_check_pressed(vk_enter);
+
 //Calculate movement
 var move = key_right - key_left;
 

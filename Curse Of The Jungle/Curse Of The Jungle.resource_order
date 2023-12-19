@@ -3,8 +3,8 @@
     {"name":"Ayman","order":1,"path":"folders/Objects/Ayman.yy",},
     {"name":"Breakable World Objects","order":2,"path":"folders/Objects/Breakable World Objects.yy",},
     {"name":"Texts","order":10,"path":"folders/Objects/Texts.yy",},
-    {"name":"Breakable world objects","order":1,"path":"folders/Sprites/Breakable world objects.yy",},
     {"name":"Throwable Objects","order":9,"path":"folders/Objects/Throwable Objects.yy",},
+    {"name":"Breakable world objects","order":1,"path":"folders/Sprites/Breakable world objects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bounce","order":3,"path":"sprites/spr_bounce/spr_bounce.yy",},

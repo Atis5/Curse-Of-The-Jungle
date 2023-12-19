@@ -105,29 +105,7 @@ if (place_meeting(x,y,obj_bounce))
 	vertical_movement = player_bounce_force;
 }
 
-//create grenade  
-if (mouse_check_button_released(mb_left)) { 
-	
-	var _throw = instance_create_layer(obj_player.x , obj_player.y - 40, "Instances",obj_grenade);
-	_throw.whatToDo = "fly"	
-	   if (image_xscale ==  1) {   _throw.flyDirect = "right" 
-		   }
-	   if (image_xscale == -1) {   _throw.flyDirect = "left" 
-		   }	
-	}
 
-
-
-
-	// see projection by holing right mouse button
-if (mouse_check_button_released(mb_right)) { 
-
-		var showProjection = instance_create_layer(obj_player.x  , obj_player.y - 40, "Instances",obj_grenade  );
-	   	showProjection.whatToDo = "show";
-	   if (image_xscale ==  1) {   showProjection.flyDirection = "right"        }
-	   if (image_xscale == -1) {   showProjection.flyDirection = "left"         }	
-		
-	} 	
 	
 //Switching from Human to Monkey form
 

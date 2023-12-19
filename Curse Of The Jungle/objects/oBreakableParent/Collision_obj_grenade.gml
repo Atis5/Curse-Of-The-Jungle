@@ -1,3 +1,4 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-image_angle = 0
+instance_destroy(obj_grenade)
+instance_destroy(obj_breakable_rocks)

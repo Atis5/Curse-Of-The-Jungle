@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite18",
-  "bbox_bottom": 0,
+  "name": "bckgrd_2",
+  "bbox_bottom": 2016,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 6049,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2599b585-9cdb-4312-9ac4-13864fe5bba7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"236eca29-19c5-4800-a978-6e6143592aef",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 2017,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"33d3301a-b790-4ace-b3df-1c8995053ab0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7806a367-c7f4-460c-971a-0d7f2961e6b5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Curse Of The Jungle",
-    "path": "Curse Of The Jungle.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite18",
+    "name": "bckgrd_2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2599b585-9cdb-4312-9ac4-13864fe5bba7","path":"sprites/Sprite18/Sprite18.yy",},},},"Disabled":false,"id":"0f2da163-6e57-48f9-81dd-008d0256bae3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"236eca29-19c5-4800-a978-6e6143592aef","path":"sprites/bckgrd_2/bckgrd_2.yy",},},},"Disabled":false,"id":"e3b49ee5-c47a-4a25-b057-0569126dab25","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 6050,
 }

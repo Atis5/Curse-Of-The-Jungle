@@ -1,7 +1,7 @@
 
 player_speed = 5;
-player_jump_force = -6;
-player_bounce_force = -8;
+player_jump_force = -7;
+player_bounce_force = -12;
 player_gravity = 0.25;
 climb_speed = 2.5;
 

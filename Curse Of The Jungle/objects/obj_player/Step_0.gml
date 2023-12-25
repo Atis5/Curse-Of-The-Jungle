@@ -7,6 +7,47 @@ key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 key_interact = keyboard_check_pressed(ord("E"));
 var switching = keyboard_check_pressed(vk_enter);
 
+//Switching from Monkey to Human key form
+
+if switching && (place_meeting(x,y+1,obj_solid)) && (human = true)
+{
+	sprite_index = spr_monkey_idle_test_placeholder;
+	human = false;
+}
+else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
+{
+	sprite_index = spr_Professor_Idle;
+	human = true;
+}
+
+// animation move
+if (horizontal_movement != 0 or vertical_movement != 0) && (human = false) {
+	sprite_index = spr_monkey_idle_test_placeholder;
+
+
+//direction or flip sprite
+if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
+}
+
+//animation for the idle
+else if (human = false) {
+	sprite_index = spr_monkey_idle_test_placeholder;
+}
+
+//// animation move for human
+if (horizontal_movement != 0 or vertical_movement != 0) && (human = true) {
+	sprite_index = spr_Professor_walking;
+
+
+//direction or flip sprite for human
+if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
+}
+
+//animation for the idle for human
+else if (human = true) {
+	sprite_index = spr_Professor_walking;
+}
+
 //Calculate movement
 var move = key_right - key_left;
 
@@ -108,14 +149,7 @@ if (place_meeting(x,y,obj_bounce))
 
 
 	
-//Switching from Human to Monkey form
 
-if  switching && (place_meeting(x,y+1,obj_solid)) {
-	instance_change(oPlayer,true)
-	instance_deactivate_object(oSpitzhacke)
-	view_visible[1] = 1;
-	view_visible[2] = 0;
-}
 
 if (moveX != 0) image_xscale = sign(moveX);
 
@@ -123,38 +157,3 @@ if (moveX != 0) image_xscale = sign(moveX);
 x += moveX;
 y += moveY;
 
-// animation move
-if (moveX != 0 or moveY != 0) {
-	sprite_index = spr_monkey_idle_test_placeholder;
-}
-//flip sprite (for not mouse using games thats why I stated this as a comment now!) following will be the sprite for facing the ouse direction
-//if (moveX != 0) image_xscale = sign(moveX);
-//}
-
-
-//Animatiaon: IDle
-else {
-	sprite_index = spr_monkey_idle_test_placeholder;
-}
-//direction
-
-var _signMouse = sign(mouse_x - x);
-if (_signMouse != 0) {
-	image_xscale = _signMouse;
-}
-
-//Animation Speed (checking if the plaer faces 1 direction and moving the other)
-
-if moveX != 0 && sign(moveX) != _signMouse {
-	image_speed = -1;
-}
-else {
-	image_speed = 1;
-}
-
-var _signMouse = sign(mouse_x - x);
-
-if (_signMouse !=0){
-	image_xscale = _signMouse;
-
-}

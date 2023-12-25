@@ -13,5 +13,14 @@ is_on_vine = false;
 is_on_tree = false;
 
 
+//player speed
 
+moveSpeed = 2;
+
+//variables
+
+moveX = 0;
+
+moveY = 0;
+human = (sprite_index == spr_Professor_walking) 
 

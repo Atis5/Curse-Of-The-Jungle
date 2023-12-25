@@ -7,8 +7,39 @@ var _left = keyboard_check(vk_left)or keyboard_check(ord("A"));
 var _down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 var _up = keyboard_check(vk_up)or keyboard_check(ord("W"));
 var jump = keyboard_check(vk_space) 
-var switching = keyboard_check_pressed(vk_enter)
+var switching = keyboard_check(vk_enter); //from human to monkey
+var switching_2 = keyboard_check(ord("E")); //from monkey to human
 
+//Switching from Human to Monkey form
+
+if switching && (place_meeting(x,y+1,obj_solid)) && (human = true)
+{
+	sprite_index = spr_monkey_idle_test_placeholder;
+	human = false;
+}
+else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
+{
+	sprite_index = spr_Professor_Idle;
+	human = true;
+}
+
+
+	
+
+
+// animation move
+if (horizontal_movement != 0 or vertical_movement != 0) {
+	sprite_index = spr_Professor_walking;
+
+
+//direction or flip sprite
+if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
+}
+
+//animation for the idle
+else {
+	sprite_index = spr_Professor_Idle;
+}
 
 
 
@@ -59,79 +90,17 @@ if (place_meeting(x,y, obj_bounce))
 x += horizontal_movement;
 y += vertical_movement;
 
-//collisions
-if (collision(x + moveX, y)) {
-	while (!collision(x + sign(moveX), y)) {
-		x += sign(moveX);
-	}
-	
-	moveX = 0;
 
-}
-
-if (collision(x, y + moveY)) {
-	while (!collision(x, y + sign(moveY))){
-		
-		y += sign(moveY);
-		
-	
-	}
-	
-	
-	moveY = 0;
-}
 
 //move instance
 x += moveX;
 y += moveY;
 
-// animation move
-if (moveX != 0 or moveY != 0) {
-	sprite_index = spr_Professor_walking;
-}
-//flip sprite (for not mouse using games thats why I stated this as a comment now!) following will be the sprite for facing the ouse direction
-//if (moveX != 0) image_xscale = sign(moveX);
-//}
-
-
-//Animatiaon: IDle
-else {
-	sprite_index = spr_Professor_Idle;
-}
-//direction
-
-var _signMouse = sign(mouse_x - x);
-if (_signMouse != 0) {
-	image_xscale = _signMouse;
-}
-
-//Animation Speed (checking if the plaer faces 1 direction and moving the other)
-
-if moveX != 0 && sign(moveX) != _signMouse {
-	image_speed = -1;
-}
-else {
-	image_speed = 1;
-}
-
-var _signMouse = sign(mouse_x - x);
-
-if (_signMouse !=0){
-	image_xscale = _signMouse;
-
-}
 
 
 
-//Switching from Human to Monkey form
 
-if switching && (place_meeting(x,y+1,obj_solid)) {
-	instance_change(obj_player,true )
-	instance_deactivate_object(oSpitzhacke)
-	view_visible[1] = 0;
-	view_visible[2] = 1;
-}
-
+//throw the grenade on mb_left
 if (mouse_check_button_released(mb_left)) { 
 	
 	var _throw = instance_create_layer(oPlayer.x , oPlayer.y - 40, "Instances",obj_grenade);
@@ -158,4 +127,5 @@ if (mouse_check_button_released(mb_right)) {
 
 
  
+
 

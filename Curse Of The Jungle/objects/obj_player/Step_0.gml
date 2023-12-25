@@ -1,4 +1,4 @@
- //Get Player input
+//Get Player input
 key_left = keyboard_check(vk_left)or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right)or keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space)
@@ -7,8 +7,9 @@ key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 key_interact = keyboard_check_pressed(ord("E"));
 var switching = keyboard_check_pressed(vk_enter);
 
-//Switching from Monkey to Human key form
 
+
+//Switching from Monkey to Human key form
 if switching && (place_meeting(x,y+1,obj_solid)) && (human = true)
 {
 	sprite_index = spr_monkey_idle_test_placeholder;
@@ -20,21 +21,23 @@ else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
 	human = true;
 }
 
-// animation move
+
+
+// Animation move
 if (horizontal_movement != 0 or vertical_movement != 0) && (human = false) {
 	sprite_index = spr_monkey_idle_test_placeholder;
 
 
-//direction or flip sprite
+// Direction or flip sprite
 if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
 }
 
-//animation for the idle
+// Animation for the idle
 else if (human = false) {
 	sprite_index = spr_monkey_idle_test_placeholder;
 }
 
-//// animation move for human
+// Animation move for human
 if (horizontal_movement != 0 or vertical_movement != 0) && (human = true) {
 	sprite_index = spr_Professor_walking;
 
@@ -43,16 +46,19 @@ if (horizontal_movement != 0 or vertical_movement != 0) && (human = true) {
 if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
 }
 
+
 //animation for the idle for human
 else if (human = true) {
 	sprite_index = spr_Professor_walking;
 }
 
+
+
 //Calculate movement
 var move = key_right - key_left;
-
 horizontal_movement = move * player_speed;
 vertical_movement = vertical_movement + player_gravity;
+
 
 
 //Jump
@@ -62,7 +68,10 @@ if (place_meeting(x,y+1,obj_solid)) && (key_jump) || (is_on_vine = true) && (key
 	stick_to_vine = false;
 }
 
+
+
 //Collision on the vine
+
 if (place_meeting(x,y, obj_vine_swing)) 
 {
 	is_on_vine = true;
@@ -77,7 +86,6 @@ if (key_interact)
 {
 	stick_to_vine = !stick_to_vine;	
 }
-
 
 if (is_on_vine = true) && (stick_to_vine)
 {
@@ -99,11 +107,14 @@ if (is_on_vine = true) && (stick_to_vine)
 }
 
 
+
 //Movement on the tree
+
 if (place_meeting(x,y,obj_climbable_tree)) 
 {
     is_on_tree = true;
 }
+
 else
 {
     is_on_tree = false;
@@ -119,6 +130,8 @@ if (is_on_tree = true) && (key_down)
     vertical_movement = climb_speed
 }
 
+
+
 //Horizontal collision
 if(place_meeting(x+horizontal_movement,y,obj_solid))
 {
@@ -129,6 +142,8 @@ if(place_meeting(x+horizontal_movement,y,obj_solid))
     horizontal_movement = 0;
 }
 x = x + horizontal_movement;
+
+
 
 //Vertical collision
 if(place_meeting(x,y+vertical_movement,obj_solid))
@@ -141,6 +156,8 @@ if(place_meeting(x,y+vertical_movement,obj_solid))
 }
 y = y + vertical_movement;
 
+
+
 //Bouncing on the Leaf
 if (place_meeting(x,y,obj_bounce))
 {
@@ -148,7 +165,6 @@ if (place_meeting(x,y,obj_bounce))
 }
 
 
-	
 
 
 if (moveX != 0) image_xscale = sign(moveX);

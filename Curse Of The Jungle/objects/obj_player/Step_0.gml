@@ -82,10 +82,12 @@ else
 	stick_to_vine = false;
 }
 
-if (key_interact) 
+if (key_interact) && (interact_cooldown<1) 
 {
-	stick_to_vine = !stick_to_vine;	
+	stick_to_vine = !stick_to_vine;
+	interact_cooldown = 20;
 }
+interact_cooldown -= 1;
 
 if (is_on_vine = true) && (stick_to_vine)
 {

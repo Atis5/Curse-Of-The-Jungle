@@ -11,7 +11,7 @@ vertical_movement = 0;
 stick_to_vine = false;
 is_on_vine = false;
 is_on_tree = false;
-
+interact_cooldown = 0;
 
 //player speed
 

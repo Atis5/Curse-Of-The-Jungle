@@ -12,9 +12,10 @@ var switching = keyboard_check_pressed(vk_enter);
 //Switching from Monkey to Human key form
 if switching && (place_meeting(x,y+1,obj_solid)) && (human = true)
 {
-	sprite_index = spr_monkey_idle_test_placeholder;
+	sprite_index = spr_monkey_idle;
 	human = false;
 }
+
 else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
 {
 	sprite_index = spr_Professor_Idle;
@@ -24,31 +25,46 @@ else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
 
 
 // Animation move
-if (horizontal_movement != 0 or vertical_movement != 0) && (human = false) {
-	sprite_index = spr_monkey_idle_test_placeholder;
+if (horizontal_movement != 0 || vertical_movement != 0) && (human = false) 
+{
+	sprite_index = spr_monkey_idle;
+}
+
 
 
 // Direction or flip sprite
-if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
+if (horizontal_movement != 0)
+{
+	image_xscale = sign(horizontal_movement);
 }
 
 // Animation for the idle
-else if (human = false) {
-	sprite_index = spr_monkey_idle_test_placeholder;
+else if (human = false) 
+{
+	sprite_index = spr_monkey_idle;
 }
+
+
 
 // Animation move for human
-if (horizontal_movement != 0 or vertical_movement != 0) && (human = true) {
+if (horizontal_movement != 0 or vertical_movement != 0) && (human = true) 
+{
 	sprite_index = spr_Professor_walking;
-
-
-//direction or flip sprite for human
-if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
 }
 
 
-//animation for the idle for human
-else if (human = true) {
+
+// Direction or flip sprite for human
+if (horizontal_movement != 0)
+{
+	image_xscale = sign(horizontal_movement);
+}
+
+
+
+// Animation for the idle for human
+else if (human = true) 
+{
 	sprite_index = spr_Professor_walking;
 }
 
@@ -71,8 +87,7 @@ if (place_meeting(x,y+1,obj_solid)) && (key_jump) || (is_on_vine = true) && (key
 
 
 //Collision on the vine
-
-if (place_meeting(x,y, obj_vine_swing)) 
+if (place_meeting(x,y, obj_vine_swing)) && (human = false)
 {
 	is_on_vine = true;
 }
@@ -82,6 +97,9 @@ else
 	stick_to_vine = false;
 }
 
+
+
+// Pressing interact button to stick to vine
 if (key_interact) && (interact_cooldown<1) 
 {
 	stick_to_vine = !stick_to_vine;
@@ -89,6 +107,9 @@ if (key_interact) && (interact_cooldown<1)
 }
 interact_cooldown -= 1;
 
+
+
+// Pulling player towards the vine
 if (is_on_vine = true) && (stick_to_vine)
 {
     vertical_movement = 0;
@@ -111,22 +132,26 @@ if (is_on_vine = true) && (stick_to_vine)
 
 
 //Movement on the tree
-
-if (place_meeting(x,y,obj_climbable_tree)) 
+if (place_meeting(x,y,obj_climbable_tree)) && (human = false) 
 {
     is_on_tree = true;
 }
-
 else
 {
     is_on_tree = false;
 }
 
+
+
+// Climb up
 if (is_on_tree = true) && (key_up)
 {
     vertical_movement = -climb_speed
 }
 
+
+
+// Climb down
 if (is_on_tree = true) && (key_down)
 {
     vertical_movement = climb_speed
@@ -174,4 +199,3 @@ if (moveX != 0) image_xscale = sign(moveX);
 //move instance
 x += moveX;
 y += moveY;
-

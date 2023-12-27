@@ -26,7 +26,7 @@
     {"name":"obj_vine_swing","order":8,"path":"objects/obj_vine_swing/obj_vine_swing.yy",},
     {"name":"Alex","order":3,"path":"objects/Alex/Alex.yy",},
     {"name":"obj_test_jumpbreak","order":2,"path":"objects/obj_test_jumpbreak/obj_test_jumpbreak.yy",},
-    {"name":"spr_monkey_idle_test_placeholder","order":10,"path":"sprites/spr_monkey_idle_test_placeholder/spr_monkey_idle_test_placeholder.yy",},
+    {"name":"spr_monkey_idle","order":10,"path":"sprites/spr_monkey_idle/spr_monkey_idle.yy",},
     {"name":"bckgrd_1","order":12,"path":"sprites/bckgrd_1/bckgrd_1.yy",},
     {"name":"spr_grenade","order":3,"path":"sprites/spr_grenade/spr_grenade.yy",},
     {"name":"spr_greybox_ground_down","order":6,"path":"sprites/spr_greybox_ground_down/spr_greybox_ground_down.yy",},

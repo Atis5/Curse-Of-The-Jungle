@@ -58,7 +58,7 @@ drawX[i] -= forceX_draw}
 				
 if (place_meeting(x,y,oBreakableParent)) 
 {
-    instance_destroy(oObject)
+    instance_destroy(inst_5ACC6748, inst_6352F8CE)
 	}
 	
 //Horizontal collision

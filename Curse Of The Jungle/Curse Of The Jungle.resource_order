@@ -52,6 +52,7 @@
     {"name":"bounce_testing","order":1,"path":"rooms/bounce_testing/bounce_testing.yy",},
     {"name":"oCollision","order":1,"path":"objects/oCollision/oCollision.yy",},
     {"name":"obj_txt_vine_2","order":4,"path":"objects/obj_txt_vine_2/obj_txt_vine_2.yy",},
+    {"name":"Object29","order":4,"path":"objects/Object29/Object29.yy",},
     {"name":"spr_breakable_rocks","order":9,"path":"sprites/spr_breakable_rocks/spr_breakable_rocks.yy",},
     {"name":"spr_vine_swing","order":8,"path":"sprites/spr_vine_swing/spr_vine_swing.yy",},
     {"name":"spr_savespot","order":1,"path":"sprites/spr_savespot/spr_savespot.yy",},

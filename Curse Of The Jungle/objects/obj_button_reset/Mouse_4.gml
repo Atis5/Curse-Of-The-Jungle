@@ -4,6 +4,6 @@
 
 event_inherited();
 
-room_goto(greybox_chris);
+game_restart();
 
 

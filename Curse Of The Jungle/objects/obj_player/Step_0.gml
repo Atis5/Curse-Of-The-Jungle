@@ -7,15 +7,12 @@ key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 key_interact = keyboard_check_pressed(ord("E"));
 var switching = keyboard_check_pressed(vk_enter);
 
-
-
 //Switching from Monkey to Human key form
 if switching && (place_meeting(x,y+1,obj_solid)) && (human = true)
 {
 	sprite_index = spr_monkey_idle;
 	human = false;
 }
-
 else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
 {
 	sprite_index = spr_Professor_Idle;
@@ -105,7 +102,10 @@ if (key_interact) && (interact_cooldown<1)
 	stick_to_vine = !stick_to_vine;
 	interact_cooldown = 20;
 }
-interact_cooldown -= 1;
+if(interact_cooldown > 0)
+{
+	interact_cooldown -= 1;
+}
 
 
 

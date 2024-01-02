@@ -5,7 +5,7 @@ forcey = -1; //vertical force, starts negatvive, goes up
 whatToDo = "";
 depth = -300;
 
-alarm[0] = 600;// destroy after some time
+alarm[0] = 60;// destroy after some time
 
 horizontal_movement = 0;
 vertical_movement = 0;
@@ -32,3 +32,5 @@ draw_checkOnce = false; //check once and set
 for (j = 1; j < draw_steps; j++) {
 	drawX[j] = 0;	drawY[j] = 0;
 	}
+	
+move_towards_point(mouse_x, mouse_y,8)

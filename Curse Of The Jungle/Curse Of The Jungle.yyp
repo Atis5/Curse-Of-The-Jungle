@@ -38,7 +38,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"spr_bounce","path":"sprites/spr_bounce/spr_bounce.yy",},},
@@ -117,7 +117,6 @@
     {"roomId":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

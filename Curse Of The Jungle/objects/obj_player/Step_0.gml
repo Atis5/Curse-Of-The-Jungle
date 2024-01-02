@@ -196,9 +196,9 @@ if (mouse_check_button_released(mb_left)) && human = true {
 	
 	var _throw = instance_create_layer(obj_player.x , obj_player.y - 40, "Instances",obj_grenade);
 	_throw.whatToDo = "fly"	
-	   if (image_xscale ==  1) {   _throw.flyDirect = "right" 
+	   if (image_xscale ==  1) {   _throw.flyDirect = mouse_x 
 		   }
-	   if (image_xscale == -1) {   _throw.flyDirect = "left" 
+	   if (image_xscale == -1) {   _throw.flyDirect = mouse_y
 		   }	
 	}
 

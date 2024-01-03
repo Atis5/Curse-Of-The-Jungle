@@ -9,17 +9,21 @@ var switching = keyboard_check_pressed(vk_enter);
 
 
 
-//Switching from Monkey to Human key form
-if switching && (place_meeting(x,y+1,obj_solid)) && (human = true)
+//Switching from Monkey to Human
+if (place_meeting(x,y,obj_trans_totem)) && (interact_cooldown < 1)
 {
-	sprite_index = spr_monkey_idle;
-	human = false;
-}
-
-else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
-{
-	sprite_index = spr_Professor_Idle;
-	human = true;
+	if (human = true)
+	{
+		sprite_index = spr_monkey_idle;
+		human = false;
+		interact_cooldown = 100;
+	}
+	else
+	{
+		sprite_index = spr_Professor_Idle;
+		human = true;
+		interact_cooldown = 100;
+	}
 }
 
 
@@ -105,7 +109,10 @@ if (key_interact) && (interact_cooldown<1)
 	stick_to_vine = !stick_to_vine;
 	interact_cooldown = 20;
 }
-interact_cooldown -= 1;
+if(interact_cooldown > 0)
+{
+	interact_cooldown -= 1;
+}
 
 
 

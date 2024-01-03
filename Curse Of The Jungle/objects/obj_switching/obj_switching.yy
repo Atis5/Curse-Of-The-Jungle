@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_trans_totem",
+  "name": "obj_switching",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

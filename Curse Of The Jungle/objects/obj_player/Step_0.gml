@@ -10,22 +10,24 @@ var switching = keyboard_check_pressed(vk_enter);
 
 
 //Switching from Monkey to Human
-if (place_meeting(x,y,obj_trans_totem)) && (interact_cooldown < 1)
+if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 {
+	switching_cooldown = 100;
 	if (human = true)
 	{
 		sprite_index = spr_monkey_idle;
 		human = false;
-		interact_cooldown = 100;
 	}
 	else
 	{
 		sprite_index = spr_Professor_Idle;
 		human = true;
-		interact_cooldown = 100;
 	}
 }
-
+if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
+{
+	switching_cooldown -= 1;
+}
 
 
 // Animation move

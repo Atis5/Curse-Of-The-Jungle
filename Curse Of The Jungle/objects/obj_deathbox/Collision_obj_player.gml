@@ -1,10 +1,15 @@
 
-//respawn to savespot
-var near = instance_nearest(other.x,other.y,obj_savespot);
-
-other.x = near.x;
-other.y = near.y;
 
 
+if(!has_triggered) {
+	has_triggered = true;
+	target = other;
+	
+
+
+target.x = global.checkpoint_x;
+target.y = global.checkpoint_y;
+has_triggered = false;
+}
 
 

@@ -47,6 +47,7 @@
     {"id":{"name":"obj_switching","path":"objects/obj_switching/obj_switching.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_Professor_walking","path":"sprites/spr_Professor_walking/spr_Professor_walking.yy",},},
+    {"id":{"name":"spr_savespot_keep_chris","path":"sprites/spr_savespot_keep_chris/spr_savespot_keep_chris.yy",},},
     {"id":{"name":"ts_greybox","path":"tilesets/ts_greybox/ts_greybox.yy",},},
     {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
     {"id":{"name":"spr_savespot_keep","path":"sprites/spr_savespot_keep/spr_savespot_keep.yy",},},

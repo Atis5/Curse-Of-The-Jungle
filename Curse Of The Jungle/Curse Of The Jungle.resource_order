@@ -14,6 +14,7 @@
     {"name":"obj_switching","order":17,"path":"objects/obj_switching/obj_switching.yy",},
     {"name":"obj_player","order":4,"path":"objects/obj_player/obj_player.yy",},
     {"name":"spr_Professor_walking","order":5,"path":"sprites/spr_Professor_walking/spr_Professor_walking.yy",},
+    {"name":"spr_savespot_keep_chris","order":4,"path":"sprites/spr_savespot_keep_chris/spr_savespot_keep_chris.yy",},
     {"name":"Sprite24","order":3,"path":"sprites/Sprite24/Sprite24.yy",},
     {"name":"spr_savespot_keep","order":3,"path":"sprites/spr_savespot_keep/spr_savespot_keep.yy",},
     {"name":"obj_txt_switch","order":7,"path":"objects/obj_txt_switch/obj_txt_switch.yy",},

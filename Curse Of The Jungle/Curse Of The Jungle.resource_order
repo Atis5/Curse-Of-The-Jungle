@@ -10,6 +10,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bounce","order":3,"path":"sprites/spr_bounce/spr_bounce.yy",},
+    {"name":"Spr_Monkey_Running","order":15,"path":"sprites/Spr_Monkey_Running/Spr_Monkey_Running.yy",},
     {"name":"spr_monkey","order":6,"path":"sprites/spr_monkey/spr_monkey.yy",},
     {"name":"obj_switching","order":17,"path":"objects/obj_switching/obj_switching.yy",},
     {"name":"obj_player","order":4,"path":"objects/obj_player/obj_player.yy",},
@@ -67,6 +68,7 @@
     {"name":"spr_breakable_rocks","order":9,"path":"sprites/spr_breakable_rocks/spr_breakable_rocks.yy",},
     {"name":"spr_vine_swing","order":8,"path":"sprites/spr_vine_swing/spr_vine_swing.yy",},
     {"name":"obj_button_reset","order":15,"path":"objects/obj_button_reset/obj_button_reset.yy",},
+    {"name":"spr_prof_running","order":16,"path":"sprites/spr_prof_running/spr_prof_running.yy",},
     {"name":"spr_savespot_off","order":1,"path":"sprites/spr_savespot_off/spr_savespot_off.yy",},
     {"name":"obj_solid","order":5,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"bckgrd_2","order":13,"path":"sprites/bckgrd_2/bckgrd_2.yy",},

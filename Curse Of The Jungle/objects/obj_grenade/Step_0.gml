@@ -88,4 +88,3 @@ if collision_line(xprevious, yprevious, x, y, obj_solid, 1, 0) {
 }
 
 
-

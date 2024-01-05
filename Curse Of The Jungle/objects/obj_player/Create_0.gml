@@ -24,5 +24,5 @@ moveSpeed = 2;
 moveX = 0;
 
 moveY = 0;
-human = (sprite_index == spr_Professor_walking)
+human = (sprite_index == spr_prof_running);
 

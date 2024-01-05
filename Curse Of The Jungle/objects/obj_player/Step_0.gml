@@ -15,12 +15,12 @@ if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 	switching_cooldown = 100;
 	if (human = true)
 	{
-		sprite_index = spr_monkey_idle;
+		sprite_index = Spr_Monkey_Running;
 		human = false;
 	}
 	else
 	{
-		sprite_index = spr_Professor_Idle;
+		sprite_index = spr_prof_running;
 		human = true;
 	}
 }
@@ -33,7 +33,7 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 // Animation move
 if (horizontal_movement != 0 || vertical_movement != 0) && (human = false) 
 {
-	sprite_index = spr_monkey_idle;
+	sprite_index = Spr_Monkey_Running;
 }
 
 
@@ -47,7 +47,7 @@ if (horizontal_movement != 0)
 // Animation for the idle
 else if (human = false) 
 {
-	sprite_index = spr_monkey_idle;
+	sprite_index = Spr_Monkey_Running;
 }
 
 
@@ -55,7 +55,7 @@ else if (human = false)
 // Animation move for human
 if (horizontal_movement != 0 or vertical_movement != 0) && (human = true) 
 {
-	sprite_index = spr_Professor_walking;
+	sprite_index = spr_prof_running;
 }
 
 
@@ -71,7 +71,7 @@ if (horizontal_movement != 0)
 // Animation for the idle for human
 else if (human = true) 
 {
-	sprite_index = spr_Professor_walking;
+	sprite_index = spr_prof_running;
 }
 
 

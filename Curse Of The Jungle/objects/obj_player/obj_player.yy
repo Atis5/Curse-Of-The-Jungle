@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_monkey_idle",
-    "path": "sprites/spr_monkey_idle/spr_monkey_idle.yy",
+    "name": "Spr_Monkey_Running",
+    "path": "sprites/Spr_Monkey_Running/Spr_Monkey_Running.yy",
   },
   "spriteMaskId": null,
   "visible": true,

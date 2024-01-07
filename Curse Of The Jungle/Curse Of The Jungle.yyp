@@ -38,7 +38,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_bounce","path":"sprites/spr_bounce/spr_bounce.yy",},},
@@ -77,6 +77,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"spr_grenade_2","path":"sprites/spr_grenade_2/spr_grenade_2.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
+    {"id":{"name":"spr_collectable","path":"sprites/spr_collectable/spr_collectable.yy",},},
     {"id":{"name":"spr_Fly_ProjectionPoint","path":"sprites/spr_Fly_ProjectionPoint/spr_Fly_ProjectionPoint.yy",},},
     {"id":{"name":"obj_savespot","path":"objects/obj_savespot/obj_savespot.yy",},},
     {"id":{"name":"spr_Professor_Idle","path":"sprites/spr_Professor_Idle/spr_Professor_Idle.yy",},},
@@ -110,6 +111,7 @@
     {"id":{"name":"obj_grenade","path":"objects/obj_grenade/obj_grenade.yy",},},
     {"id":{"name":"obj_button_reset","path":"objects/obj_button_reset/obj_button_reset.yy",},},
     {"id":{"name":"spr_prof_running","path":"sprites/spr_prof_running/spr_prof_running.yy",},},
+    {"id":{"name":"obj_collectable","path":"objects/obj_collectable/obj_collectable.yy",},},
     {"id":{"name":"spr_savespot_off","path":"sprites/spr_savespot_off/spr_savespot_off.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"fnt_gameplay_hints","path":"fonts/fnt_gameplay_hints/fnt_gameplay_hints.yy",},},
@@ -119,8 +121,8 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"greybox_chris_test_for_ayman","path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},},
+    {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},
     {"roomId":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},

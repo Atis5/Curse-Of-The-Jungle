@@ -1,0 +1,1 @@
+obj_smoke.depth = -1;

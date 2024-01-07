@@ -18,6 +18,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ayman","folderPath":"folders/Objects/Ayman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Breakable World Objects","folderPath":"folders/Objects/Breakable World Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Collectables","folderPath":"folders/Objects/Collectables.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Deathboxes_Savespots","folderPath":"folders/Objects/Deathboxes_Savespots.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Texts","folderPath":"folders/Objects/Texts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Throwable Objects","folderPath":"folders/Objects/Throwable Objects.yy",},
@@ -33,13 +34,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Deathboxes_Savespots","folderPath":"folders/Sprites/Deathboxes_Savespots.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Collectables","folderPath":"folders/Objects/Collectables.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_bounce","path":"sprites/spr_bounce/spr_bounce.yy",},},
@@ -108,7 +108,6 @@
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},},
     {"id":{"name":"obj_txt_vine_2","path":"objects/obj_txt_vine_2/obj_txt_vine_2.yy",},},
     {"id":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
-    {"id":{"name":"Object29","path":"objects/Object29/Object29.yy",},},
     {"id":{"name":"scr_trans_totem","path":"scripts/scr_trans_totem/scr_trans_totem.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"spr_breakable_rocks","path":"sprites/spr_breakable_rocks/spr_breakable_rocks.yy",},},
@@ -138,6 +137,7 @@
     {"roomId":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

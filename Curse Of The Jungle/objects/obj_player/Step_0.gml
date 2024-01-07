@@ -9,6 +9,18 @@ var switching = keyboard_check_pressed(vk_enter);
 
 
 
+// Check if player is on the ground
+if (place_meeting(x,y+1,obj_solid))
+{
+	grounded = true;
+} 
+else 
+{
+    grounded = false;
+}
+
+
+
 //Switching from Monkey to Human
 if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 {
@@ -16,12 +28,10 @@ if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 	instance_create_layer(x, y-60, "Player", obj_smoke);
 	if (human = true)
 	{
-		sprite_index = Spr_Monkey_Running;
 		human = false;
 	}
 	else
 	{
-		sprite_index = spr_prof_running;
 		human = true;
 	}
 }
@@ -31,10 +41,34 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 }
 
 
+
 // Animation move
-if (horizontal_movement != 0 || vertical_movement != 0) && (human = false) 
+if (horizontal_movement || vertical_movement != 0)
 {
-	sprite_index = Spr_Monkey_Running;
+	if (human == true)
+	{
+		sprite_index = spr_prof_running;
+	}
+	else
+	{
+		sprite_index = Spr_Monkey_Running;
+	}
+	
+}
+
+
+
+// Animation for the idle
+else if (horizontal_movement == 0)
+{
+	if (human == true)
+	{
+		sprite_index = spr_Professor_Idle;
+	}
+	else
+	{
+		sprite_index = spr_monkey_idle;
+	}
 }
 
 
@@ -42,37 +76,14 @@ if (horizontal_movement != 0 || vertical_movement != 0) && (human = false)
 // Direction or flip sprite
 if (horizontal_movement != 0)
 {
-	image_xscale = sign(horizontal_movement);
-}
-
-// Animation for the idle
-else if (human = false) 
-{
-	sprite_index = Spr_Monkey_Running;
-}
-
-
-
-// Animation move for human
-if (horizontal_movement != 0 or vertical_movement != 0) && (human = true) 
-{
-	sprite_index = spr_prof_running;
-}
-
-
-
-// Direction or flip sprite for human
-if (horizontal_movement != 0)
-{
-	image_xscale = sign(horizontal_movement);
-}
-
-
-
-// Animation for the idle for human
-else if (human = true) 
-{
-	sprite_index = spr_prof_running;
+	if (human == true)
+	{
+		image_xscale = sign(horizontal_movement);
+	}
+	else
+	{
+		image_xscale = sign(horizontal_movement);
+	}
 }
 
 
@@ -85,10 +96,18 @@ vertical_movement = vertical_movement + player_gravity;
 
 
 //Jump
-if (place_meeting(x,y+1,obj_solid)) && (key_jump) || (is_on_vine = true) && (key_jump) || (is_on_tree = true) && (key_jump)
+if (grounded == true || (is_on_vine = true) || (is_on_tree == true)) && (key_jump)
 {
     vertical_movement = player_jump_force;
 	stick_to_vine = false;
+	if (human == true)
+	{
+		sprite_index = Spr_Prof_jumping;
+	}
+	else
+	{
+		sprite_index = Spr_Monkey_jumping;
+	}
 }
 
 

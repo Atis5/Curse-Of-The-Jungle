@@ -13,6 +13,7 @@ is_on_vine = false;
 is_on_tree = false;
 interact_cooldown = 0;
 switching_cooldown = 0;
+grounded = true;
 
 
 //player speed

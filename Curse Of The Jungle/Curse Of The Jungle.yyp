@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_bounce","path":"sprites/spr_bounce/spr_bounce.yy",},},
@@ -72,6 +72,7 @@
     {"id":{"name":"bckgrd_1","path":"sprites/bckgrd_1/bckgrd_1.yy",},},
     {"id":{"name":"spr_grenade","path":"sprites/spr_grenade/spr_grenade.yy",},},
     {"id":{"name":"spr_greybox_ground_down","path":"sprites/spr_greybox_ground_down/spr_greybox_ground_down.yy",},},
+    {"id":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},},
     {"id":{"name":"spr_savespot_on","path":"sprites/spr_savespot_on/spr_savespot_on.yy",},},
     {"id":{"name":"spr_climbable_tree","path":"sprites/spr_climbable_tree/spr_climbable_tree.yy",},},
     {"id":{"name":"spr_smoke_unused","path":"sprites/spr_smoke_unused/spr_smoke_unused.yy",},},
@@ -104,6 +105,8 @@
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},},
     {"id":{"name":"obj_txt_vine_2","path":"objects/obj_txt_vine_2/obj_txt_vine_2.yy",},},
+    {"id":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
+    {"id":{"name":"Object29","path":"objects/Object29/Object29.yy",},},
     {"id":{"name":"scr_trans_totem","path":"scripts/scr_trans_totem/scr_trans_totem.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"spr_breakable_rocks","path":"sprites/spr_breakable_rocks/spr_breakable_rocks.yy",},},
@@ -126,6 +129,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
+    {"roomId":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
     {"roomId":{"name":"greybox_chris_test_for_ayman","path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},},
     {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},

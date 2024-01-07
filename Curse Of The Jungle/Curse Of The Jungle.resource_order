@@ -55,6 +55,7 @@
     {"name":"obj_savespot_controller","order":2,"path":"objects/obj_savespot_controller/obj_savespot_controller.yy",},
     {"name":"obj_breakable_rocks","order":9,"path":"objects/obj_breakable_rocks/obj_breakable_rocks.yy",},
     {"name":"oObject","order":1,"path":"objects/oObject/oObject.yy",},
+    {"name":"Spr_Prof_jumping","order":17,"path":"sprites/Spr_Prof_jumping/Spr_Prof_jumping.yy",},
     {"name":"obj_text_collectible","order":9,"path":"objects/obj_text_collectible/obj_text_collectible.yy",},
     {"name":"oController","order":3,"path":"objects/oController/oController.yy",},
     {"name":"oSpitzhacke","order":4,"path":"objects/oSpitzhacke/oSpitzhacke.yy",},

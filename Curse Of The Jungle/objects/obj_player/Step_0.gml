@@ -13,6 +13,7 @@ var switching = keyboard_check_pressed(vk_enter);
 if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 {
 	switching_cooldown = 100;
+	instance_create_layer(x, y-60, "Player", obj_smoke);
 	if (human = true)
 	{
 		sprite_index = Spr_Monkey_Running;

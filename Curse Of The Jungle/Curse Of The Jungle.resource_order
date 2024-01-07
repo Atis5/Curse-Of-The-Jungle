@@ -30,6 +30,7 @@
     {"name":"obj_txt_climb","order":2,"path":"objects/obj_txt_climb/obj_txt_climb.yy",},
     {"name":"obj_vine_swing","order":8,"path":"objects/obj_vine_swing/obj_vine_swing.yy",},
     {"name":"Alex","order":3,"path":"objects/Alex/Alex.yy",},
+    {"name":"Spr_Monkey_jumping","order":18,"path":"sprites/Spr_Monkey_jumping/Spr_Monkey_jumping.yy",},
     {"name":"obj_test_jumpbreak","order":2,"path":"objects/obj_test_jumpbreak/obj_test_jumpbreak.yy",},
     {"name":"spr_monkey_idle","order":10,"path":"sprites/spr_monkey_idle/spr_monkey_idle.yy",},
     {"name":"bckgrd_1","order":12,"path":"sprites/bckgrd_1/bckgrd_1.yy",},

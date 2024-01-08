@@ -19,7 +19,7 @@ if switching && (place_meeting(x,y+1,obj_solid)) && (human = true)
 }
 else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
 {
-	sprite_index = spr_Professor_Idle;
+	sprite_index = spr_prof_idle;
 	human = true;
 }
 
@@ -29,7 +29,7 @@ else if switching && (place_meeting(x,y+1,obj_solid)) && (human = false)
 
 // animation move
 if (horizontal_movement != 0 or vertical_movement != 0) {
-	sprite_index = spr_Professor_walking;
+	sprite_index = spr_prof_unused;
 
 
 //direction or flip sprite
@@ -38,7 +38,7 @@ if (horizontal_movement != 0) image_xscale = sign(horizontal_movement);
 
 //animation for the idle
 else {
-	sprite_index = spr_Professor_Idle;
+	sprite_index = spr_prof_idle;
 }
 
 

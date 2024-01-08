@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Professor_walking",
-    "path": "sprites/spr_Professor_walking/spr_Professor_walking.yy",
+    "name": "spr_prof_unused",
+    "path": "sprites/spr_prof_unused/spr_prof_unused.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_Monkey_Running",
-    "path": "sprites/Spr_Monkey_Running/Spr_Monkey_Running.yy",
+    "name": "spr_monkey_run",
+    "path": "sprites/spr_monkey_run/spr_monkey_run.yy",
   },
   "spriteMaskId": null,
   "visible": true,

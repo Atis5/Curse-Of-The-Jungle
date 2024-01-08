@@ -20,5 +20,5 @@ player_gravity = 0.25;
 
 horizontal_movement = 0;
 vertical_movement = 0;
-human = (sprite_index == spr_Professor_walking) 
+human = (sprite_index == spr_prof_unused) 
 

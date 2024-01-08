@@ -51,7 +51,7 @@ if (horizontal_movement != 0) && (grounded == true)
 	}
 	else
 	{
-		sprite_index = Spr_Monkey_Running;
+		sprite_index = spr_monkey_run;
 	}
 	
 }
@@ -63,7 +63,7 @@ else if (horizontal_movement == 0) && (grounded == true)
 {
 	if (human == true)
 	{
-		sprite_index = spr_Professor_Idle;
+		sprite_index = spr_prof_idle;
 	}
 	else
 	{
@@ -79,11 +79,11 @@ if (key_jump)
 {
 	if (human == true)
 	{
-		sprite_index = Spr_Prof_jumping;
+		sprite_index = spr_prof_up;
 	}
 	else
 	{
-		sprite_index = Spr_Monkey_jumping;
+		sprite_index = spr_monkey_up;
 	}
 }
 

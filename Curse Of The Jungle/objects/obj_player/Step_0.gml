@@ -43,7 +43,7 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 
 
 // Animation move
-if (horizontal_movement || vertical_movement != 0)
+if (horizontal_movement != 0)
 {
 	if (human == true)
 	{

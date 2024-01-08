@@ -43,7 +43,7 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 
 
 // Animation move
-if (horizontal_movement != 0)
+if (horizontal_movement != 0) && (grounded == true)
 {
 	if (human == true)
 	{
@@ -59,7 +59,7 @@ if (horizontal_movement != 0)
 
 
 // Animation for the idle
-else if (horizontal_movement == 0)
+else if (horizontal_movement == 0) && (grounded == true)
 {
 	if (human == true)
 	{
@@ -71,6 +71,21 @@ else if (horizontal_movement == 0)
 	}
 }
 
+
+
+
+// Jump animation
+if (key_jump)
+{
+	if (human == true)
+	{
+		sprite_index = Spr_Prof_jumping;
+	}
+	else
+	{
+		sprite_index = Spr_Monkey_jumping;
+	}
+}
 
 
 // Direction or flip sprite
@@ -100,14 +115,6 @@ if (grounded == true || (is_on_vine = true) || (is_on_tree == true)) && (key_jum
 {
     vertical_movement = player_jump_force;
 	stick_to_vine = false;
-	if (human == true)
-	{
-		sprite_index = Spr_Prof_jumping;
-	}
-	else
-	{
-		sprite_index = Spr_Monkey_jumping;
-	}
 }
 
 

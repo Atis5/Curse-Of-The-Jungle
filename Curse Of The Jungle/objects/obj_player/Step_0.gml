@@ -47,7 +47,7 @@ if (horizontal_movement != 0) && (grounded == true)
 {
 	if (human == true)
 	{
-		sprite_index = spr_prof_running;
+		sprite_index = spr_prof_run;
 	}
 	else
 	{
@@ -79,13 +79,28 @@ if (key_jump)
 {
 	if (human == true)
 	{
-		sprite_index = spr_prof_up;
+		sprite_index = spr_prof_jump;
 	}
 	else
 	{
 		sprite_index = spr_monkey_up;
 	}
 }
+
+
+// Airborne animation
+if (grounded == false)
+{
+	if (human == true)
+	{
+		sprite_index = spr_prof_jump;
+	}
+	else
+	{
+		sprite_index = spr_monkey_air;
+	}
+}
+
 
 
 // Direction or flip sprite

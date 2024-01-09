@@ -74,6 +74,7 @@
     {"name":"spr_breakable_rocks","order":9,"path":"sprites/spr_breakable_rocks/spr_breakable_rocks.yy",},
     {"name":"spr_vine_swing","order":8,"path":"sprites/spr_vine_swing/spr_vine_swing.yy",},
     {"name":"spr_smoke","order":18,"path":"sprites/spr_smoke/spr_smoke.yy",},
+    {"name":"Spr_Jump_Leaf","order":19,"path":"sprites/Spr_Jump_Leaf/Spr_Jump_Leaf.yy",},
     {"name":"obj_score","order":1,"path":"objects/obj_score/obj_score.yy",},
     {"name":"obj_button_reset","order":15,"path":"objects/obj_button_reset/obj_button_reset.yy",},
     {"name":"spr_prof_running","order":16,"path":"sprites/spr_prof_running/spr_prof_running.yy",},

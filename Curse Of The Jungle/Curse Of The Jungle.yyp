@@ -39,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"spr_bounce","path":"sprites/spr_bounce/spr_bounce.yy",},},
@@ -113,6 +113,7 @@
     {"id":{"name":"spr_breakable_rocks","path":"sprites/spr_breakable_rocks/spr_breakable_rocks.yy",},},
     {"id":{"name":"spr_vine_swing","path":"sprites/spr_vine_swing/spr_vine_swing.yy",},},
     {"id":{"name":"spr_smoke","path":"sprites/spr_smoke/spr_smoke.yy",},},
+    {"id":{"name":"Spr_Jump_Leaf","path":"sprites/Spr_Jump_Leaf/Spr_Jump_Leaf.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
     {"id":{"name":"obj_grenade","path":"objects/obj_grenade/obj_grenade.yy",},},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},

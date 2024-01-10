@@ -27,3 +27,8 @@ moveX = 0;
 moveY = 0;
 human = (sprite_index == spr_prof_run);
 
+//ROPE SWing
+isSwinging = false;
+swingAngle = 0;
+swingSpeed = 3;
+maxSwingAngle = 90;

@@ -75,7 +75,7 @@ else if (horizontal_movement == 0) && (grounded == true)
 
 
 // Jump animation
-if (key_jump)
+if (key_jump) && (grounded == true)
 {
 	if (human == true)
 	{
@@ -260,3 +260,29 @@ if (moveX != 0) image_xscale = sign(moveX);
 //move instance
 x += moveX;
 y += moveY;
+
+
+
+//rope swing
+
+if (isSwinging) {
+    // Apply swinging physics when a key is pressed (e.g., spacebar)
+    if (keyboard_check_pressed(vk_space)) {
+        // Simulate swinging by adjusting swing angle
+        swingAngle += swingSpeed;
+        
+        // Limit swing angle
+        if (swingAngle > maxSwingAngle) {
+            swingAngle = maxSwingAngle;
+        }
+        
+        // Apply swinging force to the player
+        var swingAngleRadians = degtorad(swingAngle);
+        var swingForce = 5; // Adjust this for the swing force
+        var swingX = lengthdir_x(swingForce, swingAngleRadians);
+        var swingY = lengthdir_y(swingForce, swingAngleRadians);
+        
+        x += swingX;
+        y += swingY;
+    }
+}

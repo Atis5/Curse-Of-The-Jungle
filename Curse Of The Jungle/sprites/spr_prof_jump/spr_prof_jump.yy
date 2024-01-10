@@ -36,8 +36,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Professor Animations",
+    "path": "folders/Sprites/Professor Animations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

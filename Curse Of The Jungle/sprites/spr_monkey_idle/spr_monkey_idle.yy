@@ -48,8 +48,8 @@
   },
   "origin": 7,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Monkey Animations",
+    "path": "folders/Sprites/Monkey Animations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

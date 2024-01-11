@@ -25,7 +25,7 @@ moveSpeed = 2;
 moveX = 0;
 
 moveY = 0;
-human = (sprite_index == spr_prof_run);
+human = (sprite_index == spr_prof_run && spr_prof_idle && spr_prof_jump);
 
 //ROPE SWing
 isSwinging = false;

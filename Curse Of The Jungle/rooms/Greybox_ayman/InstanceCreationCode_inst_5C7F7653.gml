@@ -1,0 +1,1 @@
+solid_instance = instance_create_layer(obj_breakable_floor.x, obj_breakable_floor.y,"solid", obj_solid);

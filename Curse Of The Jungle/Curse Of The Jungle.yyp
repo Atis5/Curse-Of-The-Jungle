@@ -142,8 +142,8 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
     {"roomId":{"name":"greybox_chris_test_for_ayman","path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},},
+    {"roomId":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
     {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},

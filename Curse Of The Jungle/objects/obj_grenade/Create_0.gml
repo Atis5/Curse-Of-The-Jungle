@@ -12,7 +12,7 @@ vertical_movement = 0;
 
 
 friction_add = 0.001; //counter value reduce horizontal flight
-gravity_add = 0.01; //counter value which pulls down
+gravity_add = 0.3; //counter value which pulls down
 flyDirect = "right"; //selector of fly direction
 spin = 10; //rotation of the object
 

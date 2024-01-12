@@ -141,6 +141,7 @@
     {"id":{"name":"Layer_2","path":"sprites/Layer_2/Layer_2.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"fnt_gameplay_hints","path":"fonts/fnt_gameplay_hints/fnt_gameplay_hints.yy",},},
+    {"id":{"name":"chris_room_ayman_2","path":"rooms/chris_room_ayman_2/chris_room_ayman_2.yy",},},
     {"id":{"name":"bckgrd_2","path":"sprites/bckgrd_2/bckgrd_2.yy",},},
     {"id":{"name":"obj_deathbox","path":"objects/obj_deathbox/obj_deathbox.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
@@ -148,8 +149,9 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"greybox_chris_test_for_ayman","path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},},
+    {"roomId":{"name":"chris_room_ayman_2","path":"rooms/chris_room_ayman_2/chris_room_ayman_2.yy",},},
     {"roomId":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
+    {"roomId":{"name":"greybox_chris_test_for_ayman","path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},},
     {"roomId":{"name":"greybox_chris","path":"rooms/greybox_chris/greybox_chris.yy",},},
     {"roomId":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},

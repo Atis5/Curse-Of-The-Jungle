@@ -94,6 +94,7 @@
     {"name":"spr_savespot_off","order":1,"path":"sprites/spr_savespot_off/spr_savespot_off.yy",},
     {"name":"Layer_2","order":1,"path":"sprites/Layer_2/Layer_2.yy",},
     {"name":"obj_solid","order":5,"path":"objects/obj_solid/obj_solid.yy",},
+    {"name":"chris_room_ayman_2","order":7,"path":"rooms/chris_room_ayman_2/chris_room_ayman_2.yy",},
     {"name":"bckgrd_2","order":13,"path":"sprites/bckgrd_2/bckgrd_2.yy",},
     {"name":"obj_smoke","order":18,"path":"objects/obj_smoke/obj_smoke.yy",},
   ],

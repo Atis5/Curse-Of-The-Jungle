@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 
-hp = 3;
 
-hpMax = hp;
 
+solid_instance = -1;

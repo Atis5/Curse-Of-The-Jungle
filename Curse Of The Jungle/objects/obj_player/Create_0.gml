@@ -14,6 +14,7 @@ is_on_tree = false;
 interact_cooldown = 0;
 switching_cooldown = 0;
 grounded = true;
+tiles = layer_tilemap_get_id("Tiles");
 
 
 //player speed
@@ -25,7 +26,7 @@ moveSpeed = 2;
 moveX = 0;
 
 moveY = 0;
-human = (sprite_index == spr_prof_run && spr_prof_idle && spr_prof_jump);
+global.human = false;
 
 //ROPE SWing
 isSwinging = false;

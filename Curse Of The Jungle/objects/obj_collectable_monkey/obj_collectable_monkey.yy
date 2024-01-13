@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Collectables",
-    "path": "folders/Objects/Collectables.yy",
+    "path": "folders/Objects/FOR USE/Collectables.yy",
   },
   "parentObjectId": null,
   "persistent": false,

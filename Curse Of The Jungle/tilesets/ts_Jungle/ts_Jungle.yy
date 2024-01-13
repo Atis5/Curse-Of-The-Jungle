@@ -19,7 +19,7 @@
     "name": "spr_tileset_foreground",
     "path": "sprites/spr_tileset_foreground/spr_tileset_foreground.yy",
   },
-  "spriteNoExport": true,
+  "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",

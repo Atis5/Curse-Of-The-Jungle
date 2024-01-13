@@ -10,8 +10,8 @@
   "managed": false,
   "overriddenProperties": [],
   "parent": {
-    "name": "Breakable World Objects",
-    "path": "folders/Objects/Breakable World Objects.yy",
+    "name": "FOR USE",
+    "path": "folders/Objects/FOR USE.yy",
   },
   "parentObjectId": null,
   "persistent": false,

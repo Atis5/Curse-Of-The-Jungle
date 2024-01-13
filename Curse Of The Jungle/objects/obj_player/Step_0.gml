@@ -10,7 +10,7 @@ var switching = keyboard_check_pressed(vk_enter);
 
 
 // Check if player is on the ground
-if (place_meeting(x,y+1,obj_solid))
+if (place_meeting(x,y+1,[tiles, obj_solid]))
 {
 	grounded = true;
 } 
@@ -26,13 +26,13 @@ if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 {
 	switching_cooldown = 100;
 	instance_create_layer(x, y-60, "Player", obj_smoke);
-	if (human = true)
+	if (global.human = true)
 	{
-		human = false;
+		global.human = false;
 	}
 	else
 	{
-		human = true;
+		global.human = true;
 	}
 }
 if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
@@ -45,7 +45,7 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 // Animation move
 if (horizontal_movement != 0) && (grounded == true)
 {
-	if (human == true)
+	if (global.human == true)
 	{
 		sprite_index = spr_prof_run;
 	}
@@ -61,7 +61,7 @@ if (horizontal_movement != 0) && (grounded == true)
 // Animation for the idle
 else if (horizontal_movement == 0) && (grounded == true)
 {
-	if (human == true)
+	if (global.human == true)
 	{
 		sprite_index = spr_prof_idle;
 	}
@@ -77,7 +77,7 @@ else if (horizontal_movement == 0) && (grounded == true)
 // Jump animation
 if (key_jump) && (grounded == true)
 {
-	if (human == true)
+	if (global.human == true)
 	{
 		sprite_index = spr_prof_jump;
 	}
@@ -91,7 +91,7 @@ if (key_jump) && (grounded == true)
 // Airborne animation
 if (grounded == false)
 {
-	if (human == true)
+	if (global.human == true)
 	{
 		sprite_index = spr_prof_jump;
 	}
@@ -106,7 +106,7 @@ if (grounded == false)
 // Direction or flip sprite
 if (horizontal_movement != 0)
 {
-	if (human == true)
+	if (global.human == true)
 	{
 		image_xscale = sign(horizontal_movement);
 	}
@@ -135,7 +135,7 @@ if (grounded == true || (is_on_vine = true) || (is_on_tree == true)) && (key_jum
 
 
 //Collision on the vine
-if (place_meeting(x,y, obj_vine_swing)) && (human = false)
+if (place_meeting(x,y, obj_vine_swing)) && (global.human = false)
 {
 	is_on_vine = true;
 }
@@ -183,7 +183,7 @@ if (is_on_vine = true) && (stick_to_vine)
 
 
 //Movement on the tree
-if (place_meeting(x,y,obj_climbable_tree)) && (human = false) 
+if (place_meeting(x,y,obj_climbable_tree)) && (global.human = false) 
 {
     is_on_tree = true;
 }
@@ -211,9 +211,9 @@ if (is_on_tree = true) && (key_down)
 
 
 //Horizontal collision
-if(place_meeting(x+horizontal_movement,y,obj_solid))
+if(place_meeting(x+horizontal_movement,y,[tiles, obj_solid]))
 {
-    while (!place_meeting(x+sign(horizontal_movement),y,obj_solid))
+    while (!place_meeting(x+sign(horizontal_movement),y,[tiles, obj_solid]))
     {
         x = x + sign(horizontal_movement);
     }
@@ -224,9 +224,9 @@ x = x + horizontal_movement;
 
 
 //Vertical collision
-if(place_meeting(x,y+vertical_movement,obj_solid))
+if(place_meeting(x,y+vertical_movement,[tiles, obj_solid]))
 {
-    while (!place_meeting(x,y+sign(vertical_movement),obj_solid))
+    while (!place_meeting(x,y+sign(vertical_movement),[tiles, obj_solid]))
     {
         y = y + sign(vertical_movement);
     }

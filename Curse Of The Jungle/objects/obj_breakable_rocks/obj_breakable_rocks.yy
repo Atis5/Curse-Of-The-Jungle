@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "FOR USE",
+    "path": "folders/Objects/FOR USE.yy",
   },
   "parentObjectId": {
     "name": "oBreakableParent",

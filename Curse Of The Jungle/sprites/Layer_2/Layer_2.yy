@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Parallax Backgrounds",
-    "path": "folders/Sprites/Parallax Backgrounds.yy",
+    "name": "Backgrounds",
+    "path": "folders/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

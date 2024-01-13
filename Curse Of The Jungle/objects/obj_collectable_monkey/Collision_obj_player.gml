@@ -2,10 +2,11 @@
 // You can write your code in this editor
 //instance_create_layer(x,y,"Collectables",obj_collectable);
 
-instance_destroy()
-
-
-audio_play_sound(sound_collectable,1,0,1)
+if (global.human == false)
+{
+	instance_destroy()
+	audio_play_sound(sound_collectable,1,0,1)
+}
 
 //do {
 //	x = random_range(32, room_width - 32);

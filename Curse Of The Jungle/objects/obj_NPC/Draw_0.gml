@@ -4,7 +4,7 @@ draw_self();
 
 if (DrawText == true){
 
-draw_rectangle(1350,1281, 1500, 1378, false )
+draw_rectangle(obj_npc.x-100,obj_npc.y-150, obj_npc.x+100, obj_npc.y-100, false )
 
 }
 

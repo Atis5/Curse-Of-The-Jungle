@@ -14,7 +14,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Throwable Objects",
-    "path": "folders/Objects/Throwable Objects.yy",
+    "path": "folders/Objects/Breakable World Objects/Throwable Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

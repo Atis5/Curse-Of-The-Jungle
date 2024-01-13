@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Deathboxes_Savespots",
-    "path": "folders/Objects/Deathboxes_Savespots.yy",
+    "name": "FOR USE",
+    "path": "folders/Objects/FOR USE.yy",
   },
   "parentObjectId": null,
   "persistent": false,

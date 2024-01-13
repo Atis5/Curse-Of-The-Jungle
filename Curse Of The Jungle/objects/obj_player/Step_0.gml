@@ -21,7 +21,7 @@ else
 
 
 
-//Switching from Monkey to Human
+//Switching forms
 if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 {
 	switching_cooldown = 100;

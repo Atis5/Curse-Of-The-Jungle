@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "rope_swing",
-    "path": "folders/Objects/rope_swing.yy",
+    "path": "folders/Objects/FOR USE/rope_swing.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

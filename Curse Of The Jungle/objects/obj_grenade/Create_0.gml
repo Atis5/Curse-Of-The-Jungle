@@ -34,3 +34,7 @@ for (j = 1; j < draw_steps; j++) {
 	}
 	
 move_towards_point(mouse_x, mouse_y,8)
+
+
+
+solid_collison = instance_create_layer(oBreakableParent.x, oBreakableParent.y,"Collisions", obj_solid);

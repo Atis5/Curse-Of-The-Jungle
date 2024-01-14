@@ -3,7 +3,7 @@
 
         // Destroy both the breakable floor and the associated solid object
        if (solid_instance != -1) {
-            with (solid_instance) {
+            with (solid_collison) {
                 instance_destroy();
             }
         }

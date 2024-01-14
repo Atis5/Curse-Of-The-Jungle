@@ -13,10 +13,7 @@
     "name": "Ayman",
     "path": "folders/Objects/Ayman.yy",
   },
-  "parentObjectId": {
-    "name": "oCollision",
-    "path": "objects/oCollision/oCollision.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

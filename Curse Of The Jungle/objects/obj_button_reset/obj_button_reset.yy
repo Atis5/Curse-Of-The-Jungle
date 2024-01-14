@@ -11,7 +11,7 @@
   ],
   "parent": {
     "name": "Menu",
-    "path": "folders/Objects/Menu.yy",
+    "path": "folders/Objects/FOR USE/Menu.yy",
   },
   "parentObjectId": {
     "name": "obj_button_parent",

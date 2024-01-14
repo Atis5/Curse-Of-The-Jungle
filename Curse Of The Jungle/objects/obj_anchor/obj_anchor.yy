@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "rope_swing",
-    "path": "folders/Objects/rope_swing.yy",
+    "path": "folders/Objects/FOR USE/rope_swing.yy",
   },
   "parentObjectId": null,
   "persistent": false,

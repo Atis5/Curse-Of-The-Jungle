@@ -1,1 +1,0 @@
-solid_instance = instance_create_layer(obj_breakable_floor.x, obj_breakable_floor.y,"Collisions", obj_solid);

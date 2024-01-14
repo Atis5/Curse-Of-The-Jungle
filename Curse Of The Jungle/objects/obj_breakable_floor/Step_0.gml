@@ -14,8 +14,8 @@ if (timer >= 0.3 * room_speed) { // 3 seconds (room_speed is the number of steps
     // Check if the final state is reached
     if (state > max_state) { // max_state is the number of destruction states
         // Destroy both the breakable floor and the associated solid object
-        if (solid_instance != -1) {
-            with (solid_instance) {
+        if (solid_collison != -1) {
+            with (solid_collison) {
                 instance_destroy();
             }
         }

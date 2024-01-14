@@ -13,3 +13,6 @@ state = 0; // 0 represents the initial state
 timer = 0; // Timer to track the time before destruction
 max_state = 3; // Number of destruction states
 solid_instance = -1; // Instance ID of the associated solid object
+
+
+solid_collison = instance_create_layer(obj_breakable_floor.x, obj_breakable_floor.y,"Collisions", obj_solid);

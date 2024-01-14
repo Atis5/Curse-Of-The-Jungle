@@ -48,7 +48,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"spr_bounce","path":"sprites/spr_bounce/spr_bounce.yy",},},
@@ -76,6 +76,7 @@
     {"id":{"name":"spr_monkey_air","path":"sprites/spr_monkey_air/spr_monkey_air.yy",},},
     {"id":{"name":"mace","path":"rooms/mace/mace.yy",},},
     {"id":{"name":"obj_txt_jump","path":"objects/obj_txt_jump/obj_txt_jump.yy",},},
+    {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},},
     {"id":{"name":"obj_txt_break_obstacle","path":"objects/obj_txt_break_obstacle/obj_txt_break_obstacle.yy",},},
     {"id":{"name":"rope_swing","path":"sprites/rope_swing/rope_swing.yy",},},
     {"id":{"name":"spr_breakable_floor_2","path":"sprites/spr_breakable_floor_2/spr_breakable_floor_2.yy",},},
@@ -164,6 +165,7 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"alex","path":"rooms/alex/alex.yy",},},
     {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"TEST","path":"rooms/TEST/TEST.yy",},},
     {"roomId":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
@@ -175,7 +177,6 @@
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},
     {"roomId":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"alex","path":"rooms/alex/alex.yy",},},
     {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},
     {"roomId":{"name":"march","path":"rooms/march/march.yy",},},
     {"roomId":{"name":"mace","path":"rooms/mace/mace.yy",},},

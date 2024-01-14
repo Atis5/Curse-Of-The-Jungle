@@ -55,6 +55,7 @@
     {"name":"greybox_chris","order":4,"path":"rooms/greybox_chris/greybox_chris.yy",},
     {"name":"mace","order":5,"path":"rooms/mace/mace.yy",},
     {"name":"obj_txt_jump","order":1,"path":"objects/obj_txt_jump/obj_txt_jump.yy",},
+    {"name":"Sprite51","order":6,"path":"sprites/Sprite51/Sprite51.yy",},
     {"name":"obj_txt_break_obstacle","order":6,"path":"objects/obj_txt_break_obstacle/obj_txt_break_obstacle.yy",},
     {"name":"rope_swing","order":24,"path":"sprites/rope_swing/rope_swing.yy",},
     {"name":"spr_breakable_floor_2","order":10,"path":"sprites/spr_breakable_floor_2/spr_breakable_floor_2.yy",},

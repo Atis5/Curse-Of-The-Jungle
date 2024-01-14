@@ -165,6 +165,7 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},
     {"roomId":{"name":"TEST","path":"rooms/TEST/TEST.yy",},},
     {"roomId":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
     {"roomId":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
@@ -177,7 +178,6 @@
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"alex","path":"rooms/alex/alex.yy",},},
-    {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},
     {"roomId":{"name":"march","path":"rooms/march/march.yy",},},
     {"roomId":{"name":"mace","path":"rooms/mace/mace.yy",},},
   ],

@@ -137,6 +137,7 @@
     {"id":{"name":"oSpitzhacke","path":"objects/oSpitzhacke/oSpitzhacke.yy",},},
     {"id":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
+    {"id":{"name":"ts_Jungle_nosolid","path":"tilesets/ts_Jungle_nosolid/ts_Jungle_nosolid.yy",},},
     {"id":{"name":"Tileset_Test","path":"rooms/Tileset_Test/Tileset_Test.yy",},},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},},
     {"id":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},
@@ -165,6 +166,7 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},
     {"roomId":{"name":"TEST","path":"rooms/TEST/TEST.yy",},},
     {"roomId":{"name":"npc_test","path":"rooms/npc_test/npc_test.yy",},},
@@ -176,7 +178,6 @@
     {"roomId":{"name":"bounce_testing","path":"rooms/bounce_testing/bounce_testing.yy",},},
     {"roomId":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"alex","path":"rooms/alex/alex.yy",},},
     {"roomId":{"name":"march","path":"rooms/march/march.yy",},},
     {"roomId":{"name":"mace","path":"rooms/mace/mace.yy",},},

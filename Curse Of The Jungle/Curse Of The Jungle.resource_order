@@ -105,6 +105,7 @@
     {"name":"oSpitzhacke","order":4,"path":"objects/oSpitzhacke/oSpitzhacke.yy",},
     {"name":"bounce_testing","order":1,"path":"rooms/bounce_testing/bounce_testing.yy",},
     {"name":"obj_button_quit","order":1,"path":"objects/obj_button_quit/obj_button_quit.yy",},
+    {"name":"ts_Jungle_nosolid","order":2,"path":"tilesets/ts_Jungle_nosolid/ts_Jungle_nosolid.yy",},
     {"name":"Tileset_Test","order":8,"path":"rooms/Tileset_Test/Tileset_Test.yy",},
     {"name":"oCollision","order":1,"path":"objects/oCollision/oCollision.yy",},
     {"name":"ayman","order":3,"path":"rooms/ayman/ayman.yy",},

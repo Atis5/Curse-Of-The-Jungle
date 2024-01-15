@@ -10,7 +10,7 @@ var switching = keyboard_check_pressed(vk_enter);
 
 
 // Check if player is on the ground
-if (place_meeting(x,y+1,[tiles, obj_solid]))
+if (place_meeting(x,y+1,[global.tiles, obj_solid, obj_breakable_floor, obj_breakable_rocks]))
 {
 	grounded = true;
 } 
@@ -211,9 +211,9 @@ if (is_on_tree = true) && (key_down)
 
 
 //Horizontal collision
-if(place_meeting(x+horizontal_movement,y,[tiles, obj_solid]))
+if(place_meeting(x+horizontal_movement,y,[global.tiles, obj_solid, obj_breakable_floor, obj_breakable_rocks]))
 {
-    while (!place_meeting(x+sign(horizontal_movement),y,[tiles, obj_solid]))
+    while (!place_meeting(x+sign(horizontal_movement),y,[global.tiles, obj_solid, obj_breakable_floor, obj_breakable_rocks]))
     {
         x = x + sign(horizontal_movement);
     }
@@ -224,9 +224,9 @@ x = x + horizontal_movement;
 
 
 //Vertical collision
-if(place_meeting(x,y+vertical_movement,[tiles, obj_solid]))
+if(place_meeting(x,y+vertical_movement,[global.tiles, obj_solid, obj_breakable_floor, obj_breakable_rocks]))
 {
-    while (!place_meeting(x,y+sign(vertical_movement),[tiles, obj_solid]))
+    while (!place_meeting(x,y+sign(vertical_movement),[global.tiles, obj_solid, obj_breakable_floor, obj_breakable_rocks]))
     {
         y = y + sign(vertical_movement);
     }

@@ -4,7 +4,7 @@
 
 
 // Step Event of obj_breakable_floor
-if place_meeting(x,y,obj_player){
+if place_meeting(x,y-1,obj_player){
 timer += 1;
 
 // Check if it's time to destroy the floor

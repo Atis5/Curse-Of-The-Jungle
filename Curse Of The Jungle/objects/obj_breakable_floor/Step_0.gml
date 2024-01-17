@@ -17,6 +17,7 @@ if (timer >= 0.3 * room_speed) { // 3 seconds (room_speed is the number of steps
         if (solid_collison != -1) {
             with (solid_collison) {
                 instance_destroy();
+				audio_play_sound(Break_Sound,1,0,1);
             }
         }
         instance_destroy(); // Destroy the breakable floor object

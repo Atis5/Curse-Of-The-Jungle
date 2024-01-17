@@ -25,6 +25,7 @@ else
 if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 {
 	switching_cooldown = 100;
+	audio_play_sound(transition_sound,1,0,1);
 	instance_create_layer(x, y-60, "Player", obj_smoke);
 	if (global.human = true)
 	{
@@ -36,15 +37,19 @@ if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
 	}
 }
 if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
-{
+{	
 	switching_cooldown -= 1;
 }
+
+//play walking sound
+
+
 
 
 
 // Animation move
 if (horizontal_movement != 0) && (grounded == true)
-{
+{	
 	if (global.human == true)
 	{
 		sprite_index = spr_prof_run;
@@ -60,7 +65,7 @@ if (horizontal_movement != 0) && (grounded == true)
 
 // Animation for the idle
 else if (horizontal_movement == 0) && (grounded == true)
-{
+{	
 	if (global.human == true)
 	{
 		sprite_index = spr_prof_idle;
@@ -76,7 +81,7 @@ else if (horizontal_movement == 0) && (grounded == true)
 
 // Jump animation
 if (key_jump) && (grounded == true)
-{
+{	audio_play_sound(Jump_sound,1,0,1);
 	if (global.human == true)
 	{
 		sprite_index = spr_prof_jump;

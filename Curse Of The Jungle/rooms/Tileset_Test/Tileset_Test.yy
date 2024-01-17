@@ -30,7 +30,7 @@
   ],
   "parent": {
     "name": "Old Rooms",
-    "path": "folders/Rooms/Your Rooms/Old Rooms.yy",
+    "path": "folders/Rooms/Old Rooms.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

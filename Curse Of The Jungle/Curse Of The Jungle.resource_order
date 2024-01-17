@@ -64,7 +64,7 @@
     {"name":"main","order":3,"path":"rooms/main/main.yy",},
     {"name":"obj_txt_climb","order":2,"path":"objects/obj_txt_climb/obj_txt_climb.yy",},
     {"name":"obj_vine_swing","order":5,"path":"objects/obj_vine_swing/obj_vine_swing.yy",},
-    {"name":"obj_collectable_monkey","order":2,"path":"objects/obj_collectable_monkey/obj_collectable_monkey.yy",},
+    {"name":"obj_collectable_monkey","order":14,"path":"objects/obj_collectable_monkey/obj_collectable_monkey.yy",},
     {"name":"spr_monkey_up","order":4,"path":"sprites/spr_monkey_up/spr_monkey_up.yy",},
     {"name":"obj_test_jumpbreak","order":1,"path":"objects/obj_test_jumpbreak/obj_test_jumpbreak.yy",},
     {"name":"spr_monkey_idle","order":5,"path":"sprites/spr_monkey_idle/spr_monkey_idle.yy",},

@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Collectables",
-    "path": "folders/Objects/FOR USE/Collectables.yy",
+    "name": "FOR USE",
+    "path": "folders/Objects/FOR USE.yy",
   },
   "parentObjectId": null,
   "persistent": false,

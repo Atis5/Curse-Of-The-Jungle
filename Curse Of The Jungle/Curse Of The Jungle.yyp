@@ -167,8 +167,8 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
+    {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"mace","path":"rooms/mace/mace.yy",},},
     {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},
     {"roomId":{"name":"TEST","path":"rooms/TEST/TEST.yy",},},

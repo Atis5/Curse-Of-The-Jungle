@@ -3,6 +3,7 @@
     {"name":"Backgrounds","order":15,"path":"folders/Backgrounds.yy",},
     {"name":"Extensions","order":1,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":2,"path":"folders/Fonts.yy",},
+    {"name":"group1","order":16,"path":"folders/group1.yy",},
     {"name":"Notes","order":3,"path":"folders/Notes.yy",},
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"Ayman","order":1,"path":"folders/Objects/Ayman.yy",},
@@ -30,7 +31,6 @@
     {"name":"Professor Animations","order":23,"path":"folders/Sprites/Professor Animations.yy",},
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
-    {"name":"group1","order":16,"path":"folders/group1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"bounce_sound","order":3,"path":"sounds/bounce_sound/bounce_sound.yy",},

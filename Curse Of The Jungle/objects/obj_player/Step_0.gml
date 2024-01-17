@@ -82,16 +82,17 @@ else if (horizontal_movement == 0) && (grounded == true)
 
 // Jump animation
 if (key_jump) && (grounded == true)
-{	audio_play_sound(Jump_sound,1,0,1);
-	if (global.human == true)
+{	
+	audio_play_sound(Jump_sound,1,0,1);
+	/*if (global.human == true)
 	{
 		sprite_index = spr_prof_air;
 	}
 	else
 	{
 		sprite_index = spr_monkey_air;
-	}
-}*/
+	}*/
+}
 
 
 // Airborne animation

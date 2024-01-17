@@ -43,6 +43,7 @@
     {"name":"spr_savespot_keep_chris","order":4,"path":"sprites/spr_savespot_keep_chris/spr_savespot_keep_chris.yy",},
     {"name":"layer_3","order":2,"path":"sprites/layer_3/layer_3.yy",},
     {"name":"spr_breakable_floor_1","order":12,"path":"sprites/spr_breakable_floor_1/spr_breakable_floor_1.yy",},
+    {"name":"spr_idle_professor","order":27,"path":"sprites/spr_idle_professor/spr_idle_professor.yy",},
     {"name":"spr_savespot_keep","order":3,"path":"sprites/spr_savespot_keep/spr_savespot_keep.yy",},
     {"name":"obj_txt_switch","order":7,"path":"objects/obj_txt_switch/obj_txt_switch.yy",},
     {"name":"spr_tileset_foreground","order":20,"path":"sprites/spr_tileset_foreground/spr_tileset_foreground.yy",},

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_monkey_air",
+  "name": "spr_prof_air",
   "bbox_bottom": 126,
   "bbox_left": 49,
   "bbox_right": 78,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97a57685-5f45-47f8-bb7e-71d813320e8d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4200496b-b5ac-4b6e-a259-51990559fd1d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5eadfd1e-0b95-411f-902c-7e1f9bef3f45","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8ed7b640-195d-4184-8705-779c85296499","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "Monkey Animations",
-    "path": "folders/Sprites/Monkey Animations.yy",
+    "name": "Professor Animations",
+    "path": "folders/Sprites/Professor Animations.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_monkey_air",
+    "name": "spr_prof_air",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"97a57685-5f45-47f8-bb7e-71d813320e8d","path":"sprites/spr_monkey_air/spr_monkey_air.yy",},},},"Disabled":false,"id":"10a356fd-dc29-4347-b979-2fa5fc870deb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4200496b-b5ac-4b6e-a259-51990559fd1d","path":"sprites/spr_prof_air/spr_prof_air.yy",},},},"Disabled":false,"id":"ba67ccf3-ea43-4b78-a2a5-0b3aac8807cf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

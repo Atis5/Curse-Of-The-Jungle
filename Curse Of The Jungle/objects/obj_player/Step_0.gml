@@ -23,7 +23,7 @@ else
 
 
 //Switching forms
-if (place_meeting(x,y,obj_switching)) && (switching_cooldown < 1)
+if ((place_meeting(x,y,obj_switching)) || (switching)) && (switching_cooldown < 1) 
 {
 	switching_cooldown = 100;
 	audio_play_sound(transition_sound,1,0,1);
@@ -85,13 +85,13 @@ if (key_jump) && (grounded == true)
 {	audio_play_sound(Jump_sound,1,0,1);
 	if (global.human == true)
 	{
-		sprite_index = spr_prof_jump;
+		sprite_index = spr_prof_air;
 	}
 	else
 	{
-		sprite_index = spr_monkey_up;
+		sprite_index = spr_monkey_air;
 	}
-}
+}*/
 
 
 // Airborne animation
@@ -99,7 +99,7 @@ if (grounded == false)
 {
 	if (global.human == true)
 	{
-		sprite_index = spr_prof_jump;
+		sprite_index = spr_prof_air;
 	}
 	else
 	{

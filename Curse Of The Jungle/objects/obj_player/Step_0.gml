@@ -127,10 +127,9 @@ vertical_movement = vertical_movement + player_gravity;
 
 
 //Jump
-if (grounded == true || (is_on_vine = true) || (is_on_tree == true)) && (key_jump)
+if ((grounded == true) || (is_on_vine = true)) && (key_jump)
 {
     vertical_movement = player_jump_force;
-	horizontal_movement = (move*player_speed)*5;
 	stick_to_vine = false;
 }
 

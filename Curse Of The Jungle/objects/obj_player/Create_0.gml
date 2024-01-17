@@ -26,7 +26,7 @@ moveSpeed = 2;
 moveX = 0;
 
 moveY = 0;
-global.human = false;
+global.human = true;
 
 //ROPE SWing
 isSwinging = false;

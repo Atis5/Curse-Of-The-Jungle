@@ -48,7 +48,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_bounce","path":"sprites/spr_bounce/spr_bounce.yy",},},
@@ -172,8 +172,8 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"main_duplicate","path":"rooms/main_duplicate/main_duplicate.yy",},},
     {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
+    {"roomId":{"name":"main_duplicate","path":"rooms/main_duplicate/main_duplicate.yy",},},
     {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"mace","path":"rooms/mace/mace.yy",},},
     {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},

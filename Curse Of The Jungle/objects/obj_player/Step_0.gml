@@ -5,7 +5,8 @@ key_jump = keyboard_check_pressed(vk_space)
 key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 key_interact = keyboard_check_pressed(ord("E"));
-var switching = keyboard_check_pressed(vk_enter);
+key_screen = keyboard_check_pressed(vk_enter);
+var switching = keyboard_check_pressed(ord("X"));
 
 
 
@@ -129,6 +130,7 @@ vertical_movement = vertical_movement + player_gravity;
 if (grounded == true || (is_on_vine = true) || (is_on_tree == true)) && (key_jump)
 {
     vertical_movement = player_jump_force;
+	horizontal_movement = (move*player_speed)*5;
 	stick_to_vine = false;
 }
 
@@ -287,3 +289,18 @@ if (isSwinging) {
     }
 }
 
+
+
+
+// Set fullscreen on ENTER
+if key_screen
+{
+    if window_get_fullscreen()
+    {
+        window_set_fullscreen(false);
+    }
+    else
+    {
+        window_set_fullscreen(true);
+    }
+}

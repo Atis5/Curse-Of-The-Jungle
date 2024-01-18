@@ -88,6 +88,7 @@
     {"name":"spr_Fly_ProjectionPoint","order":7,"path":"sprites/spr_Fly_ProjectionPoint/spr_Fly_ProjectionPoint.yy",},
     {"name":"obj_savespot","order":10,"path":"objects/obj_savespot/obj_savespot.yy",},
     {"name":"spr_breakable_floor_3","order":11,"path":"sprites/spr_breakable_floor_3/spr_breakable_floor_3.yy",},
+    {"name":"spr_autotiling","order":27,"path":"sprites/spr_autotiling/spr_autotiling.yy",},
     {"name":"greybox_chris_test_for_ayman","order":5,"path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},
     {"name":"spr_solid","order":2,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"alex","order":2,"path":"rooms/alex/alex.yy",},

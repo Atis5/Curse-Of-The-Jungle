@@ -115,6 +115,7 @@
     {"id":{"name":"spr_prof_idle","path":"sprites/spr_prof_idle/spr_prof_idle.yy",},},
     {"id":{"name":"spr_breakable_floor_3","path":"sprites/spr_breakable_floor_3/spr_breakable_floor_3.yy",},},
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},},
+    {"id":{"name":"spr_autotiling","path":"sprites/spr_autotiling/spr_autotiling.yy",},},
     {"id":{"name":"greybox_chris_test_for_ayman","path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},},
     {"id":{"name":"sound_collectable","path":"sounds/sound_collectable/sound_collectable.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},

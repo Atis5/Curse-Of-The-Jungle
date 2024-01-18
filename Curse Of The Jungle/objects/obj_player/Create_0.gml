@@ -15,6 +15,8 @@ interact_cooldown = 0;
 switching_cooldown = 0;
 grounded = true;
 global.tiles = layer_tilemap_get_id("Tiles");
+is_jumping = false;
+is_landing = false;
 
 
 //player speed

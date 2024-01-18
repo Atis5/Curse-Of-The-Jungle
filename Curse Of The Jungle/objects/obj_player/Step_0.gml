@@ -49,7 +49,7 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 
 
 // Animation move
-if (horizontal_movement != 0) && (grounded == true)
+if (horizontal_movement != 0) && (grounded == true) && (is_landing == false)
 {	
 	if (global.human == true)
 	{
@@ -79,33 +79,37 @@ else if (horizontal_movement == 0) && (grounded == true)
 
 
 
-
-// Jump animation
-if (key_jump) && (grounded == true)
-{	
-	audio_play_sound(Jump_sound,1,0,1);
-	/*if (global.human == true)
-	{
-		sprite_index = spr_prof_air;
-	}
-	else
-	{
-		sprite_index = spr_monkey_air;
-	}*/
-}
-
-
-// Airborne animation
-if (grounded == false)
+// Jumping animation
+if (is_jumping == true)
 {
 	if (global.human == true)
 	{
-		sprite_index = spr_prof_air;
+		sprite_index = spr_prof_jump;
 	}
 	else
 	{
-		sprite_index = spr_monkey_air;
+		sprite_index = spr_monkey_jump;
 	}
+	if(image_index >= 5)
+		{
+			is_jumping = false;
+		}
+}
+
+
+
+// Airborne animation
+else if (grounded == false) && (is_jumping == false)
+{
+	if (global.human == true)
+	{
+		sprite_index = spr_prof_jump;
+	}
+	else
+	{
+		sprite_index = spr_monkey_jump;
+	}
+	image_index = 6;
 }
 
 
@@ -135,6 +139,8 @@ vertical_movement = vertical_movement + player_gravity;
 //Jump
 if ((grounded == true) || (is_on_vine = true)) && (key_jump)
 {
+	audio_play_sound(Jump_sound,1,0,1);
+	is_jumping = true;
     vertical_movement = player_jump_force;
 	stick_to_vine = false;
 }

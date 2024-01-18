@@ -1,7 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 DrawText = false;
 
 
-
+text = ""; // empty text

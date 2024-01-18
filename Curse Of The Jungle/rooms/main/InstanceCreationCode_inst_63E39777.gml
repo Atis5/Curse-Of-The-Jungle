@@ -1,0 +1,1 @@
+npc_speech = "██ █ █████ █████ ███ ██ climb ███ tree"

@@ -1,0 +1,1 @@
+npc_speech = "██ ███ █ monkey. █ ████ grab ███ vine."

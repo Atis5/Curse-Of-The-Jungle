@@ -1,0 +1,1 @@
+npc_speech = "Thank you for playing our game!"

@@ -98,6 +98,7 @@
     {"name":"Death_sound","order":1,"path":"sounds/Death_sound/Death_sound.yy",},
     {"name":"spr_breakable_floor_3","order":11,"path":"sprites/spr_breakable_floor_3/spr_breakable_floor_3.yy",},
     {"name":"transition_sound","order":5,"path":"sounds/transition_sound/transition_sound.yy",},
+    {"name":"spr_autotiling","order":27,"path":"sprites/spr_autotiling/spr_autotiling.yy",},
     {"name":"greybox_chris_test_for_ayman","order":5,"path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},
     {"name":"spr_prof_air","order":5,"path":"sprites/spr_prof_air/spr_prof_air.yy",},
     {"name":"spr_X_Score","order":2,"path":"sprites/spr_X_Score/spr_X_Score.yy",},

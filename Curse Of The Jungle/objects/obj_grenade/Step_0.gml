@@ -59,28 +59,30 @@ drawX[i] -= forceX_draw}
 
 	
 //Horizontal collision
-if(place_meeting(x+horizontal_movement,y,obj_solid))
+if(place_meeting(x+horizontal_movement,y,[obj_solid, global.tiles]))
 {
-    while (!place_meeting(x+sign(horizontal_movement),y,obj_solid))
+    while (!place_meeting(x+sign(horizontal_movement),y,[obj_solid, global.tiles]))
     {
         x = x + sign(horizontal_movement);
     }
     horizontal_movement = 0;
+	instance_destroy();
 }
 x = x + horizontal_movement;
 
 //Vertical collision
-if(place_meeting(x,y+vertical_movement,obj_solid))
+if(place_meeting(x,y+vertical_movement,[obj_solid, global.tiles]))
 {
-    while (!place_meeting(x,y+sign(vertical_movement),obj_solid))
+    while (!place_meeting(x,y+sign(vertical_movement),[obj_solid, global.tiles]))
     {
         y = y + sign(vertical_movement);
     }
     vertical_movement = 0;
+	instance_destroy()
 }
 y = y + vertical_movement;
 
-if collision_line(xprevious, yprevious, x, y, obj_solid, 1, 0) {
+if collision_line(xprevious, yprevious, x, y, [obj_solid, global.tiles], 1, 0) {
 	event_perform(ev_collision, obj_solid);
 }
 

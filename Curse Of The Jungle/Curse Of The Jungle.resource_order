@@ -129,6 +129,7 @@
     {"name":"spr_vine_swing","order":8,"path":"sprites/spr_vine_swing/spr_vine_swing.yy",},
     {"name":"spr_smoke","order":18,"path":"sprites/spr_smoke/spr_smoke.yy",},
     {"name":"Spr_Jump_Leaf","order":19,"path":"sprites/Spr_Jump_Leaf/Spr_Jump_Leaf.yy",},
+    {"name":"Spr_NPC","order":28,"path":"sprites/Spr_NPC/Spr_NPC.yy",},
     {"name":"obj_button_reset","order":2,"path":"objects/obj_button_reset/obj_button_reset.yy",},
     {"name":"spr_prof_run","order":2,"path":"sprites/spr_prof_run/spr_prof_run.yy",},
     {"name":"obj_collectable_human","order":1,"path":"objects/obj_collectable_human/obj_collectable_human.yy",},

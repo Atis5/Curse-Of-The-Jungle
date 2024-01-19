@@ -49,7 +49,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"bounce_sound","path":"sounds/bounce_sound/bounce_sound.yy",},},
@@ -165,6 +165,7 @@
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
     {"id":{"name":"obj_grenade","path":"objects/obj_grenade/obj_grenade.yy",},},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
+    {"id":{"name":"Spr_NPC","path":"sprites/Spr_NPC/Spr_NPC.yy",},},
     {"id":{"name":"obj_button_reset","path":"objects/obj_button_reset/obj_button_reset.yy",},},
     {"id":{"name":"spr_prof_run","path":"sprites/spr_prof_run/spr_prof_run.yy",},},
     {"id":{"name":"obj_collectable_human","path":"objects/obj_collectable_human/obj_collectable_human.yy",},},

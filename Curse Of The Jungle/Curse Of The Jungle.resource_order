@@ -60,6 +60,7 @@
     {"name":"obj_X_Score","order":4,"path":"objects/obj_X_Score/obj_X_Score.yy",},
     {"name":"obj_txt_jump","order":1,"path":"objects/obj_txt_jump/obj_txt_jump.yy",},
     {"name":"Sprite51","order":5,"path":"sprites/Sprite51/Sprite51.yy",},
+    {"name":"Totem_switch","order":28,"path":"sprites/Totem_switch/Totem_switch.yy",},
     {"name":"obj_txt_break_obstacle","order":6,"path":"objects/obj_txt_break_obstacle/obj_txt_break_obstacle.yy",},
     {"name":"chris","order":6,"path":"rooms/chris/chris.yy",},
     {"name":"rope_swing","order":24,"path":"sprites/rope_swing/rope_swing.yy",},

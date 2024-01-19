@@ -49,7 +49,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"bounce_sound","path":"sounds/bounce_sound/bounce_sound.yy",},},
@@ -82,6 +82,7 @@
     {"id":{"name":"obj_X_Score","path":"objects/obj_X_Score/obj_X_Score.yy",},},
     {"id":{"name":"obj_txt_jump","path":"objects/obj_txt_jump/obj_txt_jump.yy",},},
     {"id":{"name":"Sprite51","path":"sprites/Sprite51/Sprite51.yy",},},
+    {"id":{"name":"Totem_switch","path":"sprites/Totem_switch/Totem_switch.yy",},},
     {"id":{"name":"obj_txt_break_obstacle","path":"objects/obj_txt_break_obstacle/obj_txt_break_obstacle.yy",},},
     {"id":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"id":{"name":"rope_swing","path":"sprites/rope_swing/rope_swing.yy",},},
@@ -181,8 +182,8 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
     {"roomId":{"name":"main_duplicate","path":"rooms/main_duplicate/main_duplicate.yy",},},
+    {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
     {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"mace","path":"rooms/mace/mace.yy",},},
     {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},

@@ -161,14 +161,15 @@ else
 
 
 // Pressing interact button to stick to vine
-if (key_interact) && (interact_cooldown<1) 
+if (key_interact) && (interact_cooldown<1)
 {
 	stick_to_vine = !stick_to_vine;
 	interact_cooldown = 20;
 }
-if(interact_cooldown > 0)
+if(interact_cooldown > -1)
 {
 	interact_cooldown -= 1;
+	show_debug_message(interact_cooldown);
 }
 
 
@@ -256,15 +257,21 @@ if (place_meeting(x,y,obj_bounce))
 }
 
 //throw the grenade on mb_left
-if (mouse_check_button_released(mb_left)) && global.human = true { 
-	
+if (key_interact) && global.human = true && (throw_cooldown<1) { 
 	var _throw = instance_create_layer(obj_player.x , obj_player.y - 40, "Player",obj_grenade);
 	_throw.whatToDo = "fly"	
 	   if (image_xscale ==  1) {   _throw.flyDirect = mouse_x 
 		   }
 	   if (image_xscale == -1) {   _throw.flyDirect = mouse_y
-		   }	
+		   }
+	throw_cooldown = 35;
 	}
+	
+if(throw_cooldown > 0)
+{
+	throw_cooldown -= 1;
+	show_debug_message(throw_cooldown);
+}
 
 
 

@@ -66,6 +66,7 @@ if(place_meeting(x+horizontal_movement,y,[obj_solid, global.tiles]))
         x = x + sign(horizontal_movement);
     }
     horizontal_movement = 0;
+	image_angle = 0;
 	instance_destroy();
 }
 x = x + horizontal_movement;
@@ -78,12 +79,12 @@ if(place_meeting(x,y+vertical_movement,[obj_solid, global.tiles]))
         y = y + sign(vertical_movement);
     }
     vertical_movement = 0;
-	instance_destroy()
+	image_angle = 0;
+	instance_destroy();
 }
 y = y + vertical_movement;
 
-if collision_line(xprevious, yprevious, x, y, [obj_solid, global.tiles], 1, 0) {
+/*if collision_line(xprevious, yprevious, x, y, [obj_solid, global.tiles], 1, 0) {
 	event_perform(ev_collision, obj_solid);
-}
-
+}*/
 

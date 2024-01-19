@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 forceX = 1; //horizontal force which starts with positive integer
-forcey = -1; //vertical force, starts negatvive, goes up
+forcey = -5; //vertical force, starts negatvive, goes up
 whatToDo = "";
 depth = -300;
 

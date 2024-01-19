@@ -4,7 +4,7 @@ key_right = keyboard_check(vk_right)or keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space)
 key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
-key_interact = keyboard_check_pressed(ord("E"));
+key_interact = keyboard_check_pressed(ord("E")) or mouse_check_button(mb_left);
 key_screen = keyboard_check_pressed(vk_enter);
 var switching = keyboard_check_pressed(ord("X"));
 
@@ -148,7 +148,7 @@ if ((grounded == true) || (is_on_vine = true)) && (key_jump)
 
 
 //Collision on the vine
-if (place_meeting(x,y, obj_vine_swing)) && (global.human = false)
+if (collision_line(x-50,y,x+50,y,obj_vine_swing,true,true) ) && (global.human = false)
 {
 	is_on_vine = true;
 }
@@ -177,7 +177,7 @@ if(interact_cooldown > 0)
 if (is_on_vine = true) && (stick_to_vine)
 {
     vertical_movement = 0;
-	var _col = instance_place(x, y, obj_vine_swing);
+	var _col = instance_nearest(x, y, obj_vine_swing);
 	//show_debug_message(_col);
 	x = lerp(x, _col.x, .1);
 	//show_debug_message(x);

@@ -566,7 +566,7 @@
     {"amount":-1,"first":89,"second":8250,},
   ],
   "last": 0,
-  "lineHeight": 19,
+  "lineHeight": 0,
   "maintainGms1Font": false,
   "parent": {
     "name": "Fonts",

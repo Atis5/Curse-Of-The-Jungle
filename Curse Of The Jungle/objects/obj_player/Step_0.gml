@@ -27,7 +27,10 @@ if ((place_meeting(x,y,obj_switching)) || (switching)) && (switching_cooldown < 
 {
 	switching_cooldown = 100;
 	audio_play_sound(transition_sound,1,0,1);
-	instance_create_layer(x, y-60, "Player", obj_smoke);
+	for (i=random_range(1,5); i>=0; i--;)
+	{
+		instance_create_layer(x, y-60,"Player", obj_smoke);
+	}
 	if (global.human = true)
 	{
 		global.human = false;
@@ -164,7 +167,7 @@ else
 if (key_interact) && (interact_cooldown<1)
 {
 	stick_to_vine = !stick_to_vine;
-	interact_cooldown = 20;
+	interact_cooldown = 20; // How long the cooldown lasts.
 }
 if(interact_cooldown > -1)
 {
@@ -251,9 +254,16 @@ y = y + vertical_movement;
 
 
 //Bouncing on the Leaf
-if (place_meeting(x,y,obj_bounce))
+if (place_meeting(x,y,obj_bounce)) && (bounce_cooldown < 1)
 {
 	vertical_movement = player_bounce_force;
+	audio_play_sound(bounce_sound,1,0,1);
+	bounce_cooldown = 30; // How long the cooldown lasts.
+}
+// Cooldown for bouncing.
+if(bounce_cooldown > 0)
+{
+	bounce_cooldown -= 1; 
 }
 
 //throw the grenade on mb_left
@@ -264,9 +274,9 @@ if (key_interact) && global.human = true && (throw_cooldown<1) {
 		   }
 	   if (image_xscale == -1) {   _throw.flyDirect = mouse_y
 		   }
-	throw_cooldown = 35;
+	throw_cooldown = 35; // How long the cooldown lasts.
 	}
-	
+// Cooldown for throwing.
 if(throw_cooldown > 0)
 {
 	throw_cooldown -= 1;

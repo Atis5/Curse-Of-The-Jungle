@@ -1,11 +1,11 @@
 //Get Player input
-key_left = keyboard_check(vk_left)or keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right)or keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space)
-key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
-key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
-key_interact = keyboard_check_pressed(ord("E")) or mouse_check_button(mb_left);
-key_screen = keyboard_check_pressed(vk_enter);
+var key_left = keyboard_check(vk_left)or keyboard_check(ord("A"));
+var key_right = keyboard_check(vk_right)or keyboard_check(ord("D"));
+var key_jump = keyboard_check_pressed(vk_space)
+var key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
+var key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
+var key_interact = keyboard_check_pressed(ord("E")) or mouse_check_button(mb_left);
+var key_screen = keyboard_check_pressed(vk_enter);
 var switching = keyboard_check_pressed(ord("X"));
 
 

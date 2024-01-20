@@ -2,17 +2,16 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_breakable_rocks",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_grenade","path":"objects/obj_grenade/obj_grenade.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "FOR USE",
     "path": "folders/Objects/FOR USE.yy",
   },
-  "parentObjectId": {
-    "name": "oBreakableParent",
-    "path": "objects/oBreakableParent/oBreakableParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

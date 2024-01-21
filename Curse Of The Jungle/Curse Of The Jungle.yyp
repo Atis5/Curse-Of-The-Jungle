@@ -49,7 +49,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
     {"id":{"name":"bounce_sound","path":"sounds/bounce_sound/bounce_sound.yy",},},
@@ -73,6 +73,7 @@
     {"id":{"name":"obj_text_end","path":"objects/obj_text_end/obj_text_end.yy",},},
     {"id":{"name":"obj_button_resume","path":"objects/obj_button_resume/obj_button_resume.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
+    {"id":{"name":"extra_jump","path":"sprites/extra_jump/extra_jump.yy",},},
     {"id":{"name":"obj_txt_leaf","path":"objects/obj_txt_leaf/obj_txt_leaf.yy",},},
     {"id":{"name":"spr_totem_placeholder","path":"sprites/spr_totem_placeholder/spr_totem_placeholder.yy",},},
     {"id":{"name":"ts_Jungle","path":"tilesets/ts_Jungle/ts_Jungle.yy",},},
@@ -142,6 +143,7 @@
     {"id":{"name":"spr_grenade_shiny","path":"sprites/spr_grenade_shiny/spr_grenade_shiny.yy",},},
     {"id":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
     {"id":{"name":"Jump_sound","path":"sounds/Jump_sound/Jump_sound.yy",},},
+    {"id":{"name":"spr_monkey_climbing","path":"sprites/spr_monkey_climbing/spr_monkey_climbing.yy",},},
     {"id":{"name":"obj_savespot_controller","path":"objects/obj_savespot_controller/obj_savespot_controller.yy",},},
     {"id":{"name":"obj_breakable_rocks","path":"objects/obj_breakable_rocks/obj_breakable_rocks.yy",},},
     {"id":{"name":"oObject","path":"objects/oObject/oObject.yy",},},
@@ -168,6 +170,7 @@
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
     {"id":{"name":"obj_grenade","path":"objects/obj_grenade/obj_grenade.yy",},},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
+    {"id":{"name":"Spr_NPC","path":"sprites/Spr_NPC/Spr_NPC.yy",},},
     {"id":{"name":"obj_button_reset","path":"objects/obj_button_reset/obj_button_reset.yy",},},
     {"id":{"name":"spr_prof_run","path":"sprites/spr_prof_run/spr_prof_run.yy",},},
     {"id":{"name":"obj_collectable_human","path":"objects/obj_collectable_human/obj_collectable_human.yy",},},

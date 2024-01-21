@@ -73,6 +73,7 @@
     {"id":{"name":"obj_text_end","path":"objects/obj_text_end/obj_text_end.yy",},},
     {"id":{"name":"obj_button_resume","path":"objects/obj_button_resume/obj_button_resume.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
+    {"id":{"name":"extra_jump","path":"sprites/extra_jump/extra_jump.yy",},},
     {"id":{"name":"obj_txt_leaf","path":"objects/obj_txt_leaf/obj_txt_leaf.yy",},},
     {"id":{"name":"spr_totem_placeholder","path":"sprites/spr_totem_placeholder/spr_totem_placeholder.yy",},},
     {"id":{"name":"ts_Jungle","path":"tilesets/ts_Jungle/ts_Jungle.yy",},},

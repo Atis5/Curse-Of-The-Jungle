@@ -111,6 +111,7 @@
     {"name":"spr_grenade_shiny","order":5,"path":"sprites/spr_grenade_shiny/spr_grenade_shiny.yy",},
     {"name":"Greybox_ayman","order":3,"path":"rooms/Greybox_ayman/Greybox_ayman.yy",},
     {"name":"Jump_sound","order":4,"path":"sounds/Jump_sound/Jump_sound.yy",},
+    {"name":"spr_monkey_climbing","order":30,"path":"sprites/spr_monkey_climbing/spr_monkey_climbing.yy",},
     {"name":"obj_savespot_controller","order":2,"path":"objects/obj_savespot_controller/obj_savespot_controller.yy",},
     {"name":"obj_breakable_rocks","order":6,"path":"objects/obj_breakable_rocks/obj_breakable_rocks.yy",},
     {"name":"Sprite40","order":9,"path":"sprites/Sprite40/Sprite40.yy",},

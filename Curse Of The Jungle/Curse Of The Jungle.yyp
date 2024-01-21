@@ -140,6 +140,7 @@
     {"id":{"name":"spr_grenade_shiny","path":"sprites/spr_grenade_shiny/spr_grenade_shiny.yy",},},
     {"id":{"name":"Greybox_ayman","path":"rooms/Greybox_ayman/Greybox_ayman.yy",},},
     {"id":{"name":"Jump_sound","path":"sounds/Jump_sound/Jump_sound.yy",},},
+    {"id":{"name":"spr_monkey_climbing","path":"sprites/spr_monkey_climbing/spr_monkey_climbing.yy",},},
     {"id":{"name":"obj_savespot_controller","path":"objects/obj_savespot_controller/obj_savespot_controller.yy",},},
     {"id":{"name":"obj_breakable_rocks","path":"objects/obj_breakable_rocks/obj_breakable_rocks.yy",},},
     {"id":{"name":"oObject","path":"objects/oObject/oObject.yy",},},

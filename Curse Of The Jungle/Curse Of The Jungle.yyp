@@ -49,7 +49,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"bounce_sound","path":"sounds/bounce_sound/bounce_sound.yy",},},
@@ -188,8 +188,8 @@
     {"id":{"name":"basic_room","path":"rooms/basic_room/basic_room.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
     {"roomId":{"name":"main_duplicate","path":"rooms/main_duplicate/main_duplicate.yy",},},
+    {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
     {"roomId":{"name":"chris","path":"rooms/chris/chris.yy",},},
     {"roomId":{"name":"mace","path":"rooms/mace/mace.yy",},},
     {"roomId":{"name":"ayman","path":"rooms/ayman/ayman.yy",},},

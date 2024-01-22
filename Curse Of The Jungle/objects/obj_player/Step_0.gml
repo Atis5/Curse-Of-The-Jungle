@@ -180,6 +180,7 @@ if(interact_cooldown > -1)
 // Pulling player towards the vine
 if (is_on_vine = true) && (stick_to_vine)
 {
+	sprite_index = spr_monkey_climbing;
     vertical_movement = 0;
 	var _col = instance_nearest(x, y, obj_vine_swing);
 	//show_debug_message(_col);

@@ -1,0 +1,1 @@
+npc_speech = "Welcome, outsider! I know English, but my sister don't. They will guide you through here, if you can understand them."

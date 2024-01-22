@@ -3,6 +3,6 @@
 
 event_inherited();
 
-room_goto(greybox_chris);
+room_goto(main);
 
 

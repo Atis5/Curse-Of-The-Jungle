@@ -215,6 +215,7 @@ else
 if (is_on_tree = true) && (key_up)
 {
     vertical_movement = -climb_speed
+	sprite_index = spr_monkey_climbing;
 }
 
 
@@ -223,6 +224,7 @@ if (is_on_tree = true) && (key_up)
 if (is_on_tree = true) && (key_down)
 {
     vertical_movement = climb_speed
+	sprite_index = spr_monkey_climbing;
 }
 
 

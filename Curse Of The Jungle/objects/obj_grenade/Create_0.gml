@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 forceX = 1; //horizontal force which starts with positive integer
-forcey = -1; //vertical force, starts negatvive, goes up
+forcey = -5; //vertical force, starts negatvive, goes up
 whatToDo = "";
 depth = -300;
 
@@ -37,4 +37,4 @@ move_towards_point(mouse_x, mouse_y,8)
 
 
 
-solid_collison = instance_create_layer(oBreakableParent.x, oBreakableParent.y,"Collisions", obj_solid);
+//solid_collison = instance_create_layer(oBreakableParent.x, oBreakableParent.y,"Collisions", obj_solid);

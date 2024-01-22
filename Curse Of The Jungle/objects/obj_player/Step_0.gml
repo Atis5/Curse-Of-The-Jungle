@@ -1,11 +1,11 @@
 //Get Player input
-key_left = keyboard_check(vk_left)or keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right)or keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space)
-key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
-key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
-key_interact = keyboard_check_pressed(ord("E"));
-key_screen = keyboard_check_pressed(vk_enter);
+var key_left = keyboard_check(vk_left)or keyboard_check(ord("A"));
+var key_right = keyboard_check(vk_right)or keyboard_check(ord("D"));
+var key_jump = keyboard_check_pressed(vk_space)
+var key_up = keyboard_check(vk_up)or keyboard_check(ord("W"));
+var key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
+var key_interact = keyboard_check_pressed(ord("E")) or mouse_check_button(mb_left);
+var key_screen = keyboard_check_pressed(vk_enter);
 var switching = keyboard_check_pressed(ord("X"));
 
 
@@ -27,7 +27,10 @@ if ((place_meeting(x,y,obj_switching)) || (switching)) && (switching_cooldown < 
 {
 	switching_cooldown = 100;
 	audio_play_sound(transition_sound,1,0,1);
-	instance_create_layer(x, y-60, "Player", obj_smoke);
+	for (i=random_range(1,5); i>=0; i--;)
+	{
+		instance_create_layer(x, y-60,"Player", obj_smoke);
+	}
 	if (global.human = true)
 	{
 		global.human = false;
@@ -49,7 +52,7 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 
 
 // Animation move
-if (horizontal_movement != 0) && (grounded == true)
+if (horizontal_movement != 0) && (grounded == true) && (is_landing == false)
 {	
 	if (global.human == true)
 	{
@@ -79,33 +82,37 @@ else if (horizontal_movement == 0) && (grounded == true)
 
 
 
-
-// Jump animation
-if (key_jump) && (grounded == true)
-{	
-	audio_play_sound(Jump_sound,1,0,1);
-	/*if (global.human == true)
-	{
-		sprite_index = spr_prof_air;
-	}
-	else
-	{
-		sprite_index = spr_monkey_air;
-	}*/
-}
-
-
-// Airborne animation
-if (grounded == false)
+// Jumping animation
+if (is_jumping == true)
 {
 	if (global.human == true)
 	{
-		sprite_index = spr_prof_air;
+		sprite_index = spr_prof_jump;
 	}
 	else
 	{
-		sprite_index = spr_monkey_air;
+		sprite_index = spr_monkey_jump;
 	}
+	if(image_index >= 5)
+		{
+			is_jumping = false;
+		}
+}
+
+
+
+// Airborne animation
+else if (grounded == false) && (is_jumping == false)
+{
+	if (global.human == true)
+	{
+		sprite_index = spr_prof_jump;
+	}
+	else
+	{
+		sprite_index = spr_monkey_jump;
+	}
+	image_index = 6;
 }
 
 
@@ -135,6 +142,8 @@ vertical_movement = vertical_movement + player_gravity;
 //Jump
 if ((grounded == true) || (is_on_vine = true)) && (key_jump)
 {
+	audio_play_sound(Jump_sound,1,0,1);
+	is_jumping = true;
     vertical_movement = player_jump_force;
 	stick_to_vine = false;
 }
@@ -142,7 +151,7 @@ if ((grounded == true) || (is_on_vine = true)) && (key_jump)
 
 
 //Collision on the vine
-if (place_meeting(x,y, obj_vine_swing)) && (global.human = false)
+if (collision_line(x-50,y,x+50,y,obj_vine_swing,true,true) ) && (global.human = false)
 {
 	is_on_vine = true;
 }
@@ -155,14 +164,15 @@ else
 
 
 // Pressing interact button to stick to vine
-if (key_interact) && (interact_cooldown<1) 
+if (key_interact) && (interact_cooldown<1)
 {
 	stick_to_vine = !stick_to_vine;
-	interact_cooldown = 20;
+	interact_cooldown = 20; // How long the cooldown lasts.
 }
-if(interact_cooldown > 0)
+if(interact_cooldown > -1)
 {
 	interact_cooldown -= 1;
+	show_debug_message(interact_cooldown);
 }
 
 
@@ -170,8 +180,9 @@ if(interact_cooldown > 0)
 // Pulling player towards the vine
 if (is_on_vine = true) && (stick_to_vine)
 {
+	sprite_index = spr_monkey_climbing;
     vertical_movement = 0;
-	var _col = instance_place(x, y, obj_vine_swing);
+	var _col = instance_nearest(x, y, obj_vine_swing);
 	//show_debug_message(_col);
 	x = lerp(x, _col.x, .1);
 	//show_debug_message(x);
@@ -244,21 +255,34 @@ y = y + vertical_movement;
 
 
 //Bouncing on the Leaf
-if (place_meeting(x,y,obj_bounce))
+if (place_meeting(x,y,obj_bounce)) && (bounce_cooldown < 1)
 {
 	vertical_movement = player_bounce_force;
+	audio_play_sound(bounce_sound,1,0,1);
+	bounce_cooldown = 30; // How long the cooldown lasts.
+}
+// Cooldown for bouncing.
+if(bounce_cooldown > 0)
+{
+	bounce_cooldown -= 1; 
 }
 
 //throw the grenade on mb_left
-if (mouse_check_button_released(mb_left)) && global.human = true { 
-	
+if (key_interact) && global.human = true && (throw_cooldown<1) { 
 	var _throw = instance_create_layer(obj_player.x , obj_player.y - 40, "Player",obj_grenade);
 	_throw.whatToDo = "fly"	
 	   if (image_xscale ==  1) {   _throw.flyDirect = mouse_x 
 		   }
 	   if (image_xscale == -1) {   _throw.flyDirect = mouse_y
-		   }	
+		   }
+	throw_cooldown = 35; // How long the cooldown lasts.
 	}
+// Cooldown for throwing.
+if(throw_cooldown > 0)
+{
+	throw_cooldown -= 1;
+	show_debug_message(throw_cooldown);
+}
 
 
 

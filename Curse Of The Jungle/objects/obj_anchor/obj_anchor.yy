@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_vine_swing",
-    "path": "sprites/spr_vine_swing/spr_vine_swing.yy",
+    "name": "spr_vine_placeholder",
+    "path": "sprites/spr_vine_placeholder/spr_vine_placeholder.yy",
   },
   "spriteMaskId": null,
   "visible": true,

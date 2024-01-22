@@ -1,4 +1,4 @@
-/// @description Hier Beschreibung einfügen
+ /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 //horizontal, apply force with friction, 0 is the max horizontal speed
 
@@ -59,31 +59,32 @@ drawX[i] -= forceX_draw}
 
 	
 //Horizontal collision
-if(place_meeting(x+horizontal_movement,y,[obj_solid, global.tiles]))
+if(place_meeting(x+forceX,y,[obj_solid, global.tiles]))
 {
-    while (!place_meeting(x+sign(horizontal_movement),y,[obj_solid, global.tiles]))
+    while (!place_meeting(x+sign(forceX),y,[obj_solid, global.tiles]))
     {
-        x = x + sign(horizontal_movement);
+        x = x + sign(forceX);
     }
-    horizontal_movement = 0;
+    forceX = 0;
+	image_angle = 0;
 	instance_destroy();
 }
-x = x + horizontal_movement;
+x = x + forceX;
 
 //Vertical collision
-if(place_meeting(x,y+vertical_movement,[obj_solid, global.tiles]))
+if(place_meeting(x,y+forcey,[obj_solid, global.tiles]))
 {
-    while (!place_meeting(x,y+sign(vertical_movement),[obj_solid, global.tiles]))
+    while (!place_meeting(x,y+sign(forcey),[obj_solid, global.tiles]))
     {
-        y = y + sign(vertical_movement);
+        y = y + sign(forcey);
     }
-    vertical_movement = 0;
-	instance_destroy()
+    forcey = 0;
+	image_angle = 0;
+	instance_destroy();
 }
-y = y + vertical_movement;
+y = y + forcey;
 
-if collision_line(xprevious, yprevious, x, y, [obj_solid, global.tiles], 1, 0) {
+/*if collision_line(xprevious, yprevious, x, y, [obj_solid, global.tiles], 1, 0) {
 	event_perform(ev_collision, obj_solid);
-}
-
+}*/
 

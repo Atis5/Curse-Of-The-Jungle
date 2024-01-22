@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_totem_placeholder",
-    "path": "sprites/spr_totem_placeholder/spr_totem_placeholder.yy",
+    "name": "Totem_switch",
+    "path": "sprites/Totem_switch/Totem_switch.yy",
   },
   "spriteMaskId": null,
   "visible": true,

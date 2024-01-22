@@ -10,11 +10,15 @@ horizontal_movement = 0;
 vertical_movement = 0;
 stick_to_vine = false;
 is_on_vine = false;
-is_on_tree = false;
+is_on_tree = false; 
 interact_cooldown = 0;
 switching_cooldown = 0;
+throw_cooldown = 0;
+bounce_cooldown = 0;
 grounded = true;
 global.tiles = layer_tilemap_get_id("Tiles");
+is_jumping = false;
+is_landing = false;
 
 
 //player speed

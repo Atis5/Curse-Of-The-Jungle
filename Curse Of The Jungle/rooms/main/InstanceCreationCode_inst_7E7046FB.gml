@@ -1,1 +1,1 @@
-npc_speech = "████ totem ████ ████ ███ safe."
+npc_speech = "!&$   danger)($   )(&   &%#%#.   &%!$   totem   &!!!   %##_   &)(   safe."

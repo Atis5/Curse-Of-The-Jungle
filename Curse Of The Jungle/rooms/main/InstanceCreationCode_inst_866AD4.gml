@@ -1,1 +1,1 @@
-npc_speech = "Damn! █ need ██ ████ █ ███ ██ break ████ obstacle!"
+npc_speech = "$%^&!   &   ^%##$   %)   %($!   @   @!&   %)   break   ^%!$   rocks!   %$   )%(#   $   $(%$#   throw   $)#%(^   $! (%."

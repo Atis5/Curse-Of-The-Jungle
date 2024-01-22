@@ -1,1 +1,1 @@
-npc_speech = "██ ██ ██ shrine.  ██ legend ██ ██ ██ ██ transform ██ ██ monkey"
+npc_speech = "%^&$   !$   ()*%   shrine.   %^#   legend   %$^*@   !&   @%!!   %$!@#   curse   )%   %^&   monkey   &)   )(^%($#@."

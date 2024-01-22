@@ -1,1 +1,1 @@
-npc_speech = "Humans ███ monkey ████ ████ together ██ █████ ██ survive."
+npc_speech = "%#%#,   human$   @^%   monkey$   %)$(   together   (^   )%#$   %)   survive."

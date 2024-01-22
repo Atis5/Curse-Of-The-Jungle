@@ -31,8 +31,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_monkey_idle",
-    "path": "sprites/spr_monkey_idle/spr_monkey_idle.yy",
+    "name": "spr_npc",
+    "path": "sprites/spr_npc/spr_npc.yy",
   },
   "spriteMaskId": null,
   "visible": true,

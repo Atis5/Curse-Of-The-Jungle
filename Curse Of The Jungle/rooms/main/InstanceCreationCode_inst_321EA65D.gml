@@ -1,1 +1,1 @@
-npc_speech = "Thank you for playing our game!"
+npc_speech = "Thank you for playing our game! Made by Alex, Ayman, Chris, Marts and Mees!"

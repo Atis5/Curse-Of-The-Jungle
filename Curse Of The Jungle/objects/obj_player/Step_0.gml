@@ -106,13 +106,12 @@ else if (grounded == false) && (is_jumping == false)
 {
 	if (global.human == true)
 	{
-		sprite_index = spr_prof_jump;
+		sprite_index = spr_prof_air;
 	}
 	else
 	{
-		sprite_index = spr_monkey_jump;
+		sprite_index = spr_monkey_air;
 	}
-	image_index = 6;
 }
 
 

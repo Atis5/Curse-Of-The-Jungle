@@ -1,1 +1,1 @@
-npc_speech = "██ ███ █ monkey. █ ████ grab ███ vine."
+npc_speech = "^)$%$   human$   $#@   not   %)$#@   ^)   swing   %)   vines.  ^%)   monkey$ can."

@@ -1,1 +1,1 @@
-npc_speech = "██ █ █████ █████ ███ ██ climb ███ tree"
+npc_speech = "%$   ^&$#^   )%$#*%   monkey$   climb!&%   tree$   &^%$   %^#$#."

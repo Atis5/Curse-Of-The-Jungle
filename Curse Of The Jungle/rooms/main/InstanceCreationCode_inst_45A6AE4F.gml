@@ -1,0 +1,1 @@
+npc_speech = "I know English, but my sisters don't. Find these journals to learn about our culture."

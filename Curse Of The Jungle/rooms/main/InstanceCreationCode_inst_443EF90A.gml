@@ -1,1 +1,1 @@
-npc_speech = "!@$%$%.  leaf  (^$!$%#^  special.   #$%^&&**(E%$#  bounce  $%^@%#$%^& !" 
+npc_speech = "Careful!  #&*$  floor   #$   unstable.   %^   )!$&%   break   ^&   ^&*%$   stand   &^   %$!"

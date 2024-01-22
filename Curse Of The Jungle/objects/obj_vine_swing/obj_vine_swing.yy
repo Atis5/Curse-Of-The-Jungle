@@ -26,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_vine",
-    "path": "sprites/spr_vine/spr_vine.yy",
+    "name": "spr_vine_invi",
+    "path": "sprites/spr_vine_invi/spr_vine_invi.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

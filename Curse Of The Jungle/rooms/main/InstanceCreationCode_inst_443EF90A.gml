@@ -1,1 +1,1 @@
-npc_speech = "██ leaf ██ special.  ██ ██ ██ ██ ██ bounce ██!"
+npc_speech = "!@$%$%.  leaf  (^$!$%#^  special.   #$%^&&**(E%$#  bounce  $%^@%#$%^& !" 

@@ -144,6 +144,8 @@
     {"name":"inst_7CFBCCD3","path":"rooms/main_duplicate/main_duplicate.yy",},
     {"name":"inst_DC630E9","path":"rooms/main_duplicate/main_duplicate.yy",},
     {"name":"inst_B555232","path":"rooms/main_duplicate/main_duplicate.yy",},
+    {"name":"inst_68F31D5A","path":"rooms/main_duplicate/main_duplicate.yy",},
+    {"name":"inst_703CBB5D","path":"rooms/main_duplicate/main_duplicate.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -179,6 +181,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A5652A7_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4133.0,"y":159.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_DC630E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_breakable_rocks","path":"objects/obj_breakable_rocks/obj_breakable_rocks.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1057.0,"y":621.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B555232","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_breakable_rocks","path":"objects/obj_breakable_rocks/obj_breakable_rocks.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1057.0,"y":558.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_68F31D5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_breakable_floor","path":"objects/obj_breakable_floor/obj_breakable_floor.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1643.0,"y":642.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_703CBB5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_breakable_floor","path":"objects/obj_breakable_floor/obj_breakable_floor.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1108.0,"y":720.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Deathboxes","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10D0180F_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_deathbox","path":"objects/obj_deathbox/obj_deathbox.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":960.0,},

@@ -9,7 +9,6 @@ var key_screen = keyboard_check_pressed(vk_enter);
 var switching = keyboard_check_pressed(ord("X"));
 
 
-
 // Check if player is on the ground
 if (place_meeting(x,y+1,[global.tiles, obj_solid, obj_breakable_floor, obj_breakable_rocks]))
 {

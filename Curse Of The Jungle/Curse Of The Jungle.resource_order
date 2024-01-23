@@ -106,6 +106,7 @@
     {"name":"spr_prof_land","order":6,"path":"sprites/spr_prof_land/spr_prof_land.yy",},
     {"name":"greybox_chris_test_for_ayman","order":5,"path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},
     {"name":"spr_prof_air","order":5,"path":"sprites/spr_prof_air/spr_prof_air.yy",},
+    {"name":"sound_background","order":7,"path":"sounds/sound_background/sound_background.yy",},
     {"name":"spr_X_Score","order":2,"path":"sprites/spr_X_Score/spr_X_Score.yy",},
     {"name":"spr_solid","order":2,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"alex","order":1,"path":"rooms/alex/alex.yy",},

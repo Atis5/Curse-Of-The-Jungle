@@ -49,7 +49,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"bounce_sound","path":"sounds/bounce_sound/bounce_sound.yy",},},
@@ -135,6 +135,7 @@
     {"id":{"name":"greybox_chris_test_for_ayman","path":"rooms/greybox_chris_test_for_ayman/greybox_chris_test_for_ayman.yy",},},
     {"id":{"name":"sound_collectable","path":"sounds/sound_collectable/sound_collectable.yy",},},
     {"id":{"name":"spr_prof_air","path":"sprites/spr_prof_air/spr_prof_air.yy",},},
+    {"id":{"name":"sound_background","path":"sounds/sound_background/sound_background.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"spr_X_Score","path":"sprites/spr_X_Score/spr_X_Score.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},

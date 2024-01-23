@@ -2,7 +2,14 @@
 
 
 if(!has_triggered) {
-	audio_play_sound(Death_sound,1,0,1);
+	if (global.human == false)
+	{
+		audio_play_sound(Death_sound,1,0,1);
+	}
+	else
+	{
+		audio_play_sound(death_sound_human,1,0,1);
+	}
 	has_triggered = true;
 	target = other;
 	

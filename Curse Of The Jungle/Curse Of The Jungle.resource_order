@@ -85,6 +85,7 @@
     {"name":"spr_smoke_unused","order":13,"path":"sprites/spr_smoke_unused/spr_smoke_unused.yy",},
     {"name":"obj_paralax_control","order":3,"path":"objects/obj_paralax_control/obj_paralax_control.yy",},
     {"name":"npc_font","order":1,"path":"fonts/npc_font/npc_font.yy",},
+    {"name":"death_sound_human","order":8,"path":"sounds/death_sound_human/death_sound_human.yy",},
     {"name":"oPlayer","order":2,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"Sprite39","order":2,"path":"sprites/Sprite39/Sprite39.yy",},
     {"name":"spr_grenade_2","order":4,"path":"sprites/spr_grenade_2/spr_grenade_2.yy",},

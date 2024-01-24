@@ -44,11 +44,6 @@ if (switching_cooldown > 0) && (!place_meeting(x,y,obj_switching))
 	switching_cooldown -= 1;
 }
 
-//play walking sound
-
-
-
-
 
 // Animation move
 if (horizontal_movement != 0) && (grounded == true) && (is_landing == false)
@@ -170,7 +165,7 @@ if (key_interact) && (interact_cooldown<1)
 if(interact_cooldown > -1)
 {
 	interact_cooldown -= 1;
-	show_debug_message(interact_cooldown);
+	//show_debug_message(interact_cooldown);
 }
 
 
@@ -281,7 +276,7 @@ if (key_interact) && global.human = true && (throw_cooldown<1) {
 if(throw_cooldown > 0)
 {
 	throw_cooldown -= 1;
-	show_debug_message(throw_cooldown);
+	// show_debug_message(throw_cooldown);
 }
 
 

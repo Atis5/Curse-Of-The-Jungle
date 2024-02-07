@@ -19,6 +19,7 @@ grounded = true;
 global.tiles = layer_tilemap_get_id("Tiles");
 is_jumping = false;
 is_landing = false;
+is_swinging = false;
 
 
 //player speed

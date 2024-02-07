@@ -7,6 +7,7 @@ var key_down = keyboard_check(vk_down)or keyboard_check(ord("S"));
 var key_interact = keyboard_check_pressed(ord("E")) or mouse_check_button(mb_left);
 var key_screen = keyboard_check_pressed(vk_enter);
 var switching = keyboard_check_pressed(ord("X"));
+var vine_swing = keyboard_check_pressed(ord("Q"));
 
 
 // Check if player is on the ground
@@ -139,6 +140,7 @@ if ((grounded == true) || (is_on_vine = true)) && (key_jump)
 	is_jumping = true;
     vertical_movement = player_jump_force;
 	stick_to_vine = false;
+	is_swinging = false;
 }
 
 
@@ -327,4 +329,30 @@ if key_screen
     {
         window_set_fullscreen(true);
     }
+}
+
+if (vine_swing)
+{
+	grapple_x = mouse_x;
+	grapple_y = mouse_y;
+	rope_x = x;
+	rope_y = y;
+	rope_angle_velocity = 0;
+	rope_angle = point_direction(grapple_x, grapple_y, x, y);
+	rope_lenght = point_distance(grapple_x, grapple_y, x, y);
+	is_swinging = true;
+}
+
+if(is_swinging == true)
+{
+	var rope_angle_acceleration = -0.2 * dcos(rope_angle);
+	rope_angle_velocity += ronge_angle_acceleration;
+	rope_angle_velocity *= 0.99;
+	
+	rope_x = grapple_x + lengthdir_x(rope_lenght, rope_angle);
+	rope_y = grapple_y + lengthdir_y(rope_lenght, rope_angle);
+	
+	horizontal_speed = rope_x - x;
+	vertical_speed = rope_y - y;
+
 }
